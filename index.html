@@ -1,87 +1,1386 @@
-<!doctype html>
-<!-- The Time Machine GitHub pages theme was designed and developed by Jon Rohan, on Feb 7, 2012. -->
-<!-- Follow him for fun. http://twitter.com/jonrohan. Tail his code on http://github.com/jonrohan -->
-<html>
+
+<!DOCTYPE html>
+<!--[if lt IE 7 ]><html class="ie6" lang="zh-cn"><![endif]-->
+<!--[if IE 7 ]><html class="ie7" lang="zh-cn"><![endif]-->
+<!--[if IE 8 ]><html class="ie8" lang="zh-cn"><![endif]-->
+<!--[if IE 9 ]><html class="ie9" lang="zh-cn"><![endif]-->
+<!--[if (gt IE 9)|!(IE)]><!--><html class="" lang="zh-cn"><!--<![endif]-->
 <head>
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta charset="utf-8" />
+<title>360导航_新一代安全上网导航</title>
+<link rel="dns-prefetch" href="//s1.qhimg.com"/>
+<meta name="description" content="360导航--新一代安全上网导航，为用户提供门户、新闻、视频、游戏、小说、彩票等各种分类的优秀内容和网站入口，提供最简单便捷的上网导航服务。安全上网，从360导航开始。" />
+<meta name="keywords" content="360导航,网址之家,网址大全,网址导航,360安全网址,360网址大全,上网导航,网址" />
+<base target="_blank"/>
+<script>var PAGE_START_TIME = (new Date).getTime(),WEBINDEXCK = "360WEBINDEXCK";
+(function(){function getCookie(key){var reg=new RegExp("(^| )"+key+"=([^;]*)(;|\x24)"),ret=reg.exec(document.cookie);return(ret&&ret[2]&&decodeURIComponent(ret[2]))||'';}var indexUrl=getCookie(WEBINDEXCK),indexPages={'http://hao.360.cn/i/index.html':'my','http://hao.360.cn/kuanping.html':'kuanping','http://hao.360.cn/tiyan.html':'standard'};if(indexUrl&&indexPages[indexUrl]&&indexPages[indexUrl]!='standard'){var goUrl=indexUrl+location.search,skipnum=getCookie('skipnum')||0;if(skipnum++<3){if(document.referrer!==location.href&&(location+"").indexOf(goUrl)==-1&&/^http:\/\/hao\.360\.cn/i.test(goUrl)){document.cookie='skipnum='+skipnum+'; expires='+(new Date((new Date).getTime()+2000)).toGMTString();window.location.href=goUrl;document.close();}}}})();var CUSTOM_THEME = "customTheme",VERSION_THEME = "1.0",DEFAULT_THEME = "default",MEM_STORE = {},API_VERSION = {"joke":"1.0","hotword":"1.0","channeltop":"1.0","channeldata":"1.6","hotwordplus":"1.0","theme":"1.0"},API_SNAPSHOTNUM = {"joke":"dd6f5683cbf8d059ea7d780f213ad354","hotword":"ebfb2795fbbf01fdc442eff9b0be01ef","channeltop":"f1c30b54c77b901dd685c676464d43bb","channeldata":"eb19cb029a210ac89878244699ddec28","theme":{"xinnian2013":"eaff52af086c47c1bb18295f351c3b54"}};
+/*hao360versionmark*/ /*Do!not!delete!*/
 
-  <link rel="stylesheet" href="stylesheets/stylesheet.css" media="screen"/>
-  <link rel="stylesheet" href="stylesheets/pygment_trac.css"/>
-  <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
-  <script type="text/javascript" src="javascripts/script.js"></script>
-
-  <title>Datasource</title>
-  <meta name="description" content="This DataSource java component aim to provide API to connect databases and java bean">
-
-  <meta name="viewport" content="width=device-width,initial-scale=1">
-
+var HAO_CONFIG={version:2.0,feedsConfig:{"joke":{host:'http://hao.h.qhimg.com/api.php',api:'joke',v:API_VERSION.joke||"1.0",r:API_SNAPSHOTNUM.joke||"",quietUpdateTime:7200000,expires:21600000},"hotword":{host:'http://hao.h.qhimg.com/api.php',api:'hotword',v:API_VERSION.hotword||"1.0",r:API_SNAPSHOTNUM.hotword||"",quietUpdateTime:1800000,expires:7200000},"channeldata":{host:'http://hao.h.qhimg.com/api.php',api:'channeldata',v:API_VERSION.channeldata||"1.0",r:API_SNAPSHOTNUM.channeldata||"",threshold:300000,expires:1800000},"channeltop":{host:'http://hao.h.qhimg.com/api.php',api:'channeltop',v:API_VERSION.channeltop||"1.0",r:API_SNAPSHOTNUM.channeltop||"",threshold:300000,expires:1800000}},themeConfig:{domain:'hao.h.qhimg.com',host:'http://hao.h.qhimg.com/api.php',api:'theme',v:VERSION_THEME,r:'',threshold:86400000,storeObj:MEM_STORE,params:{}},channelOrder:{host:'http://tuijian.h.qhimg.com/index.php',api:'channelOrder',v:"2",r:"nxuan4",expires:3600000},iguessConfig:{host:'http://guess.h.qhimg.com/guess.php',api:'iguess',v:'2',r:'18',quietUpdateTime:1800000,expires:7200000},weather:{host:'http://weather.hao.360.cn/',cnd_host:'http://cdn.weather.hao.360.cn/',weather:{path:'sed_api_weather_info.php',api:'weather',v:'1',r:'www',quietUpdateTime:7200000,expires:14400000},area:{path:'sed_api_area_query.php',api:'area',v:'1',r:'www'}},widget:{host:'http://hao.h.qhimg.com/widget.php',threshold:50000,v:1},search:{api:'search',v:'1',r:'aaa'}};</script>
+<script type="text/javascript" src="http://s1.qhimg.com/static/facf0b3e0a47b36c,62659a771c80b3b5,b7de95fd2f308c07,86a5a8fd3cf24383,d72f99f74c3e9c9b,5fa18d547d5c3c6f.js"></script>
+<style type="text/css">body{font:12px/1.5 arial,simsun,georgia,verdana,helvetica,sans-serif}body,ul,ol,dl,dd,h1,h2,h3,h4,h5,h6,pre,form,fieldset,legend,input,button,textarea,p,blockquote,th,td{margin:0;padding:0}table{border-collapse:collapse;border-spacing:0;table-layout:fixed}ul,ol,menu{list-style:none}fieldset,img{border:none}img,object,select,input,textarea,button{vertical-align:middle}article,aside,footer,header,section,nav,menu,figure,figcaption,hgroup,details{display:block}caption,th{text-align:left}h1,h2,h3,h4,h5,h6,input,textarea,select,address,caption,cite,code,dfn,em,i,b,strong,small,th,var,abbr{font-size:100%;font-style:normal}q:before,q:after{content:''}ins,s,u,del{text-decoration:none}a{text-decoration:none;cursor:pointer}a:hover{text-decoration:underline}::selection{background-color:#39f;color:#fff}::-moz-selection{background-color:#39f;color:#fff}.gclearfix:after,#channel:after,#hd:after,#bd:after,#ft:after,.hd:after,.bd:after,.ft:after,.pophd:after,.popbd:after,.popft:after,.gmodule:after{display:block;clear:both;visibility:hidden;height:0;content:''}.gclearfix,#channel,#hd,#bd,#ft,.hd,.bd,.ft,.pophd,.popbd,.popft,.gmodule{zoom:1}.gmodule{margin-top:10px}a{color:#333}a:hover{color:#e60012}#doc{position:relative;width:100%;color:#333;background:#f3f3f3 url(http://p1.qhimg.com/t01758d595582ec209e.jpg) repeat-x 0 -485px}#topbar,#theme-panel,#doc-bd,#hd,#bd{position:relative}#topbar .topbar-bd{margin:0 auto;width:975px}#doc-bd,#copyright .copyright-bd,#footer .footer-bd{margin:0 auto;width:1000px}#topbar,#doc{min-width:1002px}#topbar{z-index:10}#theme-panel{z-index:9}#doc-bd{z-index:8}#hd{z-index:2}#bd{z-index:1}#header{z-index:20}.green{color:#10b606!important}.orange{color:#f60!important}.blue{color:#07519a!important}.g-box{font-size:14px;border-width:1px;border-style:solid}.g-box .list{overflow:hidden;zoom:1}.g-box .list li{float:left;overflow:hidden;height:29px;line-height:29px}button::-moz-focus-inner{margin:0;padding:0;border:0}.split{padding:0 5px 0 4px;font-size:14px;-webkit-text-size-adjust:none}.dot{display:inline-block;overflow:hidden;width:2px;height:2px;vertical-align:top;background-color:#323232}.g-point{width:6px;height:6px}.g-point .border,.g-point .bg{display:block;overflow:hidden;position:absolute;top:0;left:0;width:0;height:0}.g-point .border{z-index:2;border-width:6px}.g-point .bg{z-index:3;border-width:6px}.g-point-top .border,.g-point-top .bg{border-style:dashed dashed solid}.g-point-top .border{border-color:transparent transparent #cdcdcd}.g-point-top .bg{top:1px;border-color:transparent transparent #f9f9f9}.g-point-right .border,.g-point-right .bg{border-style:dashed dashed dashed solid}.g-point-right .border{border-color:transparent transparent transparent #cdcdcd}.g-point-right .bg{left:-1px;border-color:transparent transparent transparent #f9f9f9}.g-point-bottom .border,.g-point-bottom .bg{border-style:solid dashed dashed}.g-point-bottom .border{border-color:#cdcdcd transparent transparent}.g-point-bottom .bg{top:-1px;border-color:#f9f9f9 transparent transparent}.g-point-left .border,.g-point-left .bg{border-style:dashed solid dashed}.g-point-left .border{border-color:transparent #cdcdcd transparent transparent}.g-point-left .bg{left:1px;border-color:transparent #f9f9f9 transparent transparent}.g-toggle{overflow:hidden;position:absolute;width:7px;height:4px;background-position:0 -30px;cursor:pointer}.open .g-toggle{background-position:0 -51px}.g-list{overflow:hidden;zoom:1}.g-list li{display:inline;overflow:hidden;float:left;height:29px;line-height:29px;font-family:simsun}.g-item{overflow:hidden;zoom:1}.g-item .subtitle{font-weight:normal}.g-item .subtitle,.g-item li{float:left;font-family:simsun}.g-item .more{float:right;font-family:simsun}.g-pic a{overflow:hidden;display:block;position:relative;vertical-align:top}.g-pic a:hover{text-decoration:none}.g-pic em,.g-pic span{position:absolute;left:0;bottom:0;width:100%;height:16px;line-height:16px;text-align:center;color:#efefef}.g-pic em{z-index:2;font-size:12px}.g-pic span{z-index:1;text-indent:-999px;background-color:#000;opacity:0.7;filter:alpha(opacity=70)}.radius1{display:block;overflow:hidden;position:absolute;width:1px;height:1px;line-height:0;font-size:0;background:#fff}.t-l{top:0;left:0}.t-r{top:0;right:0}.b-l{bottom:0;left:0}.b-r{bottom:0;right:0}.g-tab{position:relative;left:-1px;background-color:#d4e5f9}.g-tab li{float:left;background-color:#ecf5fe;cursor:pointer}.g-tab li a{position:relative;left:-1px;float:left;text-align:center;color:#868789;border-left:1px solid #d5e6fa}.g-tab li a:hover{text-decoration:none}.g-tab li.hover{background:#d9ecfd}.g-tab li.on{position:relative;border:1px solid #d4e5f9;background-color:#fcfcfc;cursor:default}.g-tab li.on a{color:#323232;cursor:default}.tabview-wrap .tabview-cont{display:none}.tabview-wrap .on{display:block}.g-hidden{display:none}#topbar{margin-top:0;border-bottom:1px solid #d6d6d6;background-color:#f8f8f8;background-repeat:repeat-x}#topbar .topbar-bd a{color:#666}#topbar .topbar-bd a:hover{color:#e60012}#topbar .topbar-bd li{float:left;position:relative;height:28px;line-height:28px;font-family:simsun}#topbar .nav{display:inline;float:left;position:relative;margin-left:-8px}#topbar .nav span{padding:0 8px;font-weight:bold;color:#555}#topbar .nav a{display:inline-block;padding:0 8px}#topbar .nav a:hover{text-decoration:none;color:#323232;background:#d9ecfd}#topbar .menu{float:right;position:relative}#topbar .menu li{margin-left:5px;color:#ddd}#topbar .menu .edition a{padding-right:18px;background-position:38px 4px}#topbar .menu .theme-trigger{margin-left:0}#topbar .menu .theme-trigger a{display:inline-block;padding-left:20px;background-position:0 -336px}#topbar .menu .g-point{display:none;z-index:30;position:absolute;top:16px;right:14px}#topbar .menu .setting-trigger{margin-left:10px}#topbar .menu .tiyanchoujiang{display:block;margin:4px 0 0 5px;width:63px;height:20px;line-height:20px;color:#666;text-align:center;background-repeat:no-repeat}#topbar .menu a.tiyanchoujiang:hover{text-decoration:none;color:#fff;background-position:0 -22px}#tiyanchoujiang-tips{top:30px;right:0;padding-left:8px;cursor:pointer;-moz-box-shadow:2px 2px 3px rgba(28,28,28,0.2);-webkit-box-shadow:2px 2px 3px rgba(28,28,28,0.2);box-shadow:2px 2px 3px rgba(28,28,28,0.2)}#tiyanchoujiang-tips .cont{color:#999}#tiyanchoujiang-tips em{display:inline-block;padding-left:18px;color:#ff7800;background:url(http://p1.qhimg.com/t0140cbf3316937c20a.png) no-repeat 0 2px}#tiyanchoujiang-tips.g-tips-bottom:before,#tiyanchoujiang-tips.g-tips-bottom:after,#tiyanchoujiang-tips.g-tips-bottom .arrow-border,#tiyanchoujiang-tips.g-tips-bottom .arrow-background{left:85%}#tiyanchoujiang-tips .close{right:4px}#topbar .more-edition{display:none;z-index:30;position:absolute;top:3px;left:-7px;width:54px;border:1px solid #ddd;background:#fff;cursor:pointer}#topbar .more-edition div{padding-left:6px;height:20px;line-height:20px;color:#666}#topbar .more-edition div.hover{background:#cbe5ff}.ie6 #topbar .menu .theme-trigger a,.ie9 #topbar .menu .theme-trigger a{background-position:0 -337px}#theme-panel{display:none;margin-top:0;height:210px;border-bottom:1px solid #cdcdcd;background:#fefefe;overflow:hidden}#theme-panel .theme-panel-bd{position:relative;margin:0 auto;padding:8px 0;width:960px}#theme-panel .list{overflow:hidden;height:160px;width:960px}#theme-panel .list ul{width:984px;zoom:1;overflow:hidden}#theme-panel .list li{float:left;margin:20px 24px 0 0;width:140px;height:130px}#theme-panel .list .cover{padding:1px;width:136px;height:92px;border:1px solid #b8b8b8;background:#fff;cursor:pointer;overflow:hidden}#theme-panel .list .cover img{vertical-align:baseline}#theme-panel .list .title{width:140px;height:32px;text-align:center}#theme-panel .list .title em{display:inline-block;overflow:hidden;margin-top:8px;padding-left:20px;height:18px;line-height:16px;line-height:18px\9;color:#4d4d4d;background-repeat:no-repeat;background-position:-64px -54px;cursor:pointer}#theme-panel .list li.on .cover{border-color:#ff9e58;background:#ff9e58}#theme-panel .list li.on em{margin-top:4px;padding-left:26px;height:24px;line-height:24px;font-weight:bold;background-position:-56px -72px}#theme-panel .page{position:absolute;right:0;bottom:12px;height:18px}#theme-panel .page span{color:#1a1a1a}#theme-panel .page em{color:#f60}#theme-panel .page a{display:inline-block;margin-left:8px;padding:0 8px;height:16px;line-height:16px;text-align:center;color:#1a1a1a;border:1px solid #ccc;background:#f2f2f2}#theme-panel .page a:hover{text-decoration:none;color:#e60012}#theme-panel .operate{text-align:center}#theme-panel .operate .btn-save,#theme-panel .operate .btn-cancel{margin-right:22px;width:79px;height:27px;border:0;background-repeat:no-repeat;cursor:pointer}#theme-panel .operate .btn-cancel{background-position:0 -27px}#theme-panel .operate a{color:#0d6ac9}#theme-panel .operate a:hover{color:#e60012}#theme-panel .list .title em,#theme-panel .operate .btn-save,#theme-panel .operate .btn-cancel{background-image:url(http://p1.qhimg.com/t01de9b41b46c79eaa1.png)}#header{position:relative;height:70px;line-height:24px}#header a{color:#666}#header #logo{position:absolute;top:15px;left:12px;width:260px;height:48px}#imgLogo{position:absolute;padding-top:4px;width:208px;height:44px}#flashLogo{display:none;position:absolute;left:10px;top:-10px;width:208px;height:50px}#flashLogo .bakLogo{position:absolute;top:14px;left:2px;display:block;width:208px;height:44px}#flashLogo .link{z-index:2;display:block;position:absolute;width:208px;height:50px;background-image:url(about:blank)}#header .weather{position:absolute;top:9px;left:270px;width:39%;height:52px;border-right:1px solid #ddd}#header .weather .inner{overflow:hidden}#header .weather .city{float:left;padding-top:5px;width:80px;text-align:center;color:#666}#header .weather .city .name{overflow:hidden;height:22px;text-align:center;font-size:14px;font-weight:800}#header .weather .city .change{font-family:simsun}#header .weather .tody,#header .weather .tomorrow,#header .weather .future{float:left;display:inline}#header .weather .tody,#header .weather .tomorrow{padding:1px;width:128px}#header .weather a.tody:hover,#header .weather a.tomorrow:hover{padding:0;text-decoration:none;border:1px solid #ddd}#header .weather .future{margin-top:22px;margin-left:5px;width:10px;height:9px;background-position:0 -114px}#header .weather .pic{float:left;_margin-right:-3px;width:60px;height:50px;white-space:nowrap}#header .weather .desc{overflow:hidden;padding-top:8px;width:67px;height:15px;line-height:14px}#header .weather .temperature{overflow:hidden;width:67px;line-height:24px;height:24px}#header .weather .setting{padding-left:20px}#header .weather .setting .title{color:#666}#header .weather .setting .cancel{margin-left:20px}#header .weather .setting .done{padding:0 5px;height:22px}#header .weather .setting select{margin-right:5px;width:60px}#header .calendar{position:absolute;top:9px;left:661px;width:13%;padding:1px 0;height:50px;text-align:center;border-left:1px solid #f9f9f9;border-right:1px solid #ddd}#header .calendar span{display:block;overflow:hidden;padding:0 2px;height:24px}#header a.calendar:hover{padding:0 0 0 1px;text-decoration:none;border-width:1px 1px 1px 0;border-style:solid solid solid none;border-color:#ddd #ddd #ddd transparent}#header .widget{position:absolute;top:9px;left:793px;padding-left:24px;width:17%;height:48px;border-left:1px solid #f9f9f9}#header .joke{overflow:hidden;height:20px;line-height:20px}#header .joke a{float:left;font-family:simsun}#header .joke a:hover{color:#e60012}#header .joke .refresh{overflow:hidden;margin-top:4px;_margin-top:3px;margin-right:6px;width:12px;height:12px;background-position:0 -134px;cursor:pointer}#header .email{position:relative;margin-top:2px;padding-left:18px;background-position:0 -147px}#header .email .text{padding-left:6px;width:144px;height:18px;line-height:18px;color:#666;border:1px solid #cdcdcd;background:#fff}#header .email .mail-login{display:none;z-index:29;position:absolute;top:-2px;left:14px;padding:1px 3px;border:1px solid #999;_left:-4px;background:-moz-linear-gradient(#fff 0%,#f1f9ff 100%) no-repeat;background:-webkit-gradient(linear, 0 0, 0 100%, from(#fff), to(#f1f9ff)) no-repeat;background:-o-linear-gradient(#fff 0%,#f1f9ff 100%) no-repeat}#header .email .mail-type{width:151px;margin:2px 0}#header .email .password{padding-left:6px;width:96px;height:18px;line-height:18px;color:#666;border:1px solid #abadb3}#header .email .btn-login{margin-left:-2px;padding:0 4px;width:46px;height:22px;line-height:14px;cursor:pointer}#header .email select:focus,#header .email input:focus{outline:none}.ie6 #imgLogo img{display:none}.ie6 #imgLogo{background-image:none;filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='http://p1.qhimg.com/t0151320b1d0fc50be8.png', sizingMethod='image');margin-top:4px}.ie6 #header .weather .setting .title,.ie7 #header .weather .setting .title{margin-left:-7px}#header .email .mail-login{background:#f1f9ff\9}#header .email .btn-login{*margin-left:0}#search{position:relative;margin-top:0;height:80px;clear:both}#search .search-hd{z-index:2;position:relative;padding:9px 0 0 0;margin-left:253px;width:550px;height:24px}#search .tab li{float:left;position:relative;margin-right:6px;padding:0 6px;height:22px;line-height:22px;font-size:14px;text-align:center;cursor:pointer;border-radius:3px}#search .tab li a{color:#323232}#search .tab li.hover{background:#daecfe}#search .tab li.hover a{text-decoration:none}#search .tab li.on{background:#74c0f9;cursor:default}#search .tab li.on a{text-decoration:none;color:#fff;cursor:default}#search .tab li.on a.link:hover{text-decoration:underline;cursor:pointer}#search .tab li.more{padding-right:12px}#search .tab li.more .g-toggle{top:8px;right:3px}#search .tab li .list{display:none;z-index:28;position:absolute;top:25px;left:-12px;width:62px;height:104px;border:1px solid #b8b8b8;background-color:#fff}#search .tab li .list a{display:block;overflow:hidden;width:62px;height:26px;line-height:26px;line-height:26px;text-align:center;color:#333;background-color:#fff}#search .tab li .list a:hover{color:#e60012;text-decoration:underline;background-color:#ddebfa}#search .search-bd{z-index:1;position:relative;height:40px}#search .form-group{position:relative;margin:5px 0 0 130px;width:750px;height:42px}#search .form-group legend{display:none}#search .widget-group{display:none;position:relative;height:42px}.search-bg{position:absolute;top:0;left:0;display:block;width:998px;height:78px;border-width:1px;border-style:solid;background-repeat:no-repeat}#search .form-group .shadowtop{z-index:1;overflow:hidden;position:absolute;top:0;left:1px;width:99.8%;height:0;border-top:1px solid #dedede;border-bottom:1px solid #f4f4f4}#search .form-group .shadowleft{overflow:hidden;position:absolute;top:0;left:0;width:0;height:30px;border-left:1px solid #dedede;border-right:1px solid #f4f4f4}#search-input{display:inline;float:left;margin:0 5px 0 8px;position:relative;width:504px;height:30px;border-width:1px;border-style:solid;border-color:#9c9c9c;background:#fff;-moz-box-shadow:inset 1px 1px 1px #dedede;-webkit-box-shadow:inset 1px 1px 1px #dedede;box-shadow:inset 1px 1px 1px #dedede}#search-input input{margin-top:5px;padding:0 6px;width:492px;height:22px;line-height:22px;font-size:16px;font-family:arial;border:0;background:none;outline:0;-webkit-appearance:none}#search-btn{overflow:hidden;float:left;width:82px;height:32px;text-align:center;font-size:14px;border:0;background-color:#e1e1e1;background-repeat:no-repeat;background-position:0 0;cursor:pointer}#search-btn.hover{background-position:0 -33px}#search-btn.mousedown{background-position:0 -66px}#search-engine{display:inline;position:relative;top:1px;float:left;margin:0 5px 1px 9px;width:97px;height:30px}#search-engine.hover{top:0;margin:0 4px 0 8px;border:1px solid #d2d2d2;background-color:#fff}#search-engine #eng-logo{overflow:hidden;position:absolute;top:-5px;left:-4px;width:95px;height:35px;text-indent:-1000px;outline:0;background-repeat:no-repeat}#search-engine .eng-list{display:none;position:absolute;top:33px;left:-1px;width:97px;border:1px solid #d2d2d2;border-bottom:none;background:#fff}#search-engine .eng-list a{display:block;overflow:hidden;width:97px;height:35px;text-indent:-1000px;border-bottom:1px solid #cecece;background-repeat:no-repeat}#search-engine .eng-list a:hover{background-color:#f6f6f6}#search-engine .g-toggle{top:14px;right:4px}#search-engine.open .eng-list{display:block}#search-engine.single #eng-logo{cursor:default}#search-engine.single .eng-list{display:none}#search-engine.single .g-toggle{display:none}#daily-hotword{z-index:1;overflow:hidden;position:absolute;top:7px;right:-114px;width:130px;height:20px}.large #daily-hotword{right:-174px;width:164px}#search-hotword.attention{background-position:4px -373px}#search-hotword.open{background-position:11px -40px}#search-hotword{top:2px;right:2px;width:30px;height:26px;background-position:11px -19px}.baidu{background-position:1px 2px}.google{background-position:0 -243px}.qihoo{background-position:-1px -174px}.taobao{background-position:0 -103px}.dangdang{background-position:0 -348px}.amazon{background-position:0 -279px}.buy360{background-position:0 -314px}.sogou{background-position:0 -136px}.gougou{background-position:0 -209px}.tianya{background-position:0 -69px}.youdao{background-position:0 -33px}.vancl{background-position:0 -420px}.souku{background-position:0 -381px}.v360{background-position:0 -453px}.jike{background-position:0 -488px}.weibo{background-position:4px -522px}.nokia{background-position:0 -561px}.somulti{background-position:3px -595px}.newsmulti{background-position:3px -631px}.bing{background-position:0 -665px}.gaode{background-position:0 -702px}.so360{background-position:4px -738px}#search .tabs li{line-height:22px\9}#search .form-group .g-input-text input{*margin-top:3px}.ie6 #search .search-bg,.ie7 #search .search-bg,.ie8 #search .search-bg{display:block}#search-hotword-tips{display:none;z-index:30;position:absolute;top:16px;right:62px;width:200px;height:30px}#search-hotword-tips .tips-text,#search-hotword-tips .close{overflow:hidden;float:left;text-indent:-999em;background:url(http://p1.qhimg.com/t017e7db9179623b026.png) no-repeat}#search-hotword-tips .tips-text{width:180px;height:30px;background-position:0 -19px}#search-hotword-tips .close{display:block;position:relative;top:-2px;width:17px;height:18px;background-position:-1px 0}#search-hotword-tips a.close:hover{background-position:-24px 0}#search-hotword-update{display:none;cursor:pointer;overflow:hidden;z-index:30;position:absolute;top:-9px;right:3px;width:20px;height:20px;line-height:18px;text-align:center;font-weight:bold;font-family:simsun;color:#fff;background-position:0 -406px}#suggest-container{position:absolute;top:165px;left:700px;border:1px solid #707a86;background:#fff}#suggest-container a{display:block;overflow:hidden;padding-left:6px;line-height:26px;font-size:14px;text-decoration:none;color:#313131;cursor:pointer}#suggest-container a.hover{background:rgba(232,232,232,0.7)}#suggest-container .declare{position:absolute;bottom:0;right:10px;height:24px;line-height:24px;text-align:right;color:#e5e5e5}#suggest-common a{height:26px;background:#fff}#suggest-direct a{position:relative;padding-right:10px;height:64px;background:#fff8e6}#suggest-direct h2{overflow:hidden;margin:6px 0;height:26px;font-weight:normal;font-size:16px;text-decoration:underline;color:#00c}#suggest-direct h2 img{position:relative;top:4px;margin-right:6px;width:16px;height:16px;vertical-align:baseline}#suggest-direct h2 strong{font-weight:normal;text-decoration:underline;color:#c00}#suggest-direct .meta{overflow:hidden;float:left;height:20px;line-height:20px;font-size:12px;color:#666}#suggest-direct .video .gaoqing{padding-right:32px;background:url(http://p1.qhimg.com/d/_hao360/v360sug/tag_gaoqing.png) no-repeat right 3px;zoom:1}#suggest-direct .video .meta{margin-right:20px}#suggest-direct .website .meta{padding-left:22px}#suggest-reci{background:url(http://p1.qhimg.com/t01df73a59c10484da3.png) no-repeat 97% 10px}#suggest-reci a{padding:0 13px;height:26px;font-family:Tahoma}#suggest-reci em,#suggest-reci span{float:left}#suggest-reci em{overflow:hidden;margin:6px 9px 0 0;width:15px;height:15px;line-height:14px;font-size:11px;text-align:center;color:#fff;background-position:0 -26px;-webkit-text-size-adjust:none}#suggest-reci .hot{background-position:0 0}#suggest-reci .new{padding-right:24px;background-position:96% -44px}#suggest-reci .link{padding-right:24px;background-position:96% -65px}#suggest-reci em,#suggest-reci .new,#suggest-reci .link{background-image:url(http://p1.qhimg.com/t01829ff981997b80bb.png);background-repeat:no-repeat}#suggest-reci .reci-setting{position:absolute;bottom:0;right:100px;height:24px;line-height:24px;color:#b4b4b4}#suggest-reci .reci-setting label{cursor:pointer}#suggest-reci .reci-setting input{margin-right:4px}.ie6 #suggest-reci .reci-setting label,.ie7 #suggest-reci .reci-setting label{padding-left:20px}.ie6 #suggest-reci .reci-setting input,.ie7 #suggest-reci .reci-setting input{position:absolute;left:0;top:2px}.ie6 #suggest-reci a,.ie7 #suggest-reci a,.ie9 #suggest-reci a{line-height:28px}.ie6 #suggest-container a.hover,.ie7 #suggest-container a.hover,.ie8 #suggest-container a.hover{background:#eee}#activity{float:left}#activity .activity-bd{overflow:hidden;position:relative;padding:0 8px 0 60px;height:34px}#activity .activity-bd .act-slogan{position:absolute;top:9px;left:8px;width:42px;height:16px}#activity .activity-bd .act-slogan img{vertical-align:top}#activity .activity-bd .act-topic{overflow:hidden;position:relative}#activity .activity-bd .act-topic-list{position:absolute;top:0;left:0}#activity .activity-bd .act-topic-list li{height:20px}#activity .hot,#activity .new{background:url(http://p1.qhimg.com/t016a1e64b9742a5dca.png) no-repeat;padding-right:28px}#activity .hot{background-position:100% -247px}#activity .new{background-position:100% -268px}#chunyun.activity-bd{padding:0;height:68px}#chunyun .g-list .headline{margin-left:8px;padding-left:1px;width:219px;height:34px;line-height:34px;border-bottom:1px dashed #ccc}#chunyun .g-list .headline a{margin:0 3px}#chunyun .g-list .chunyun-train{margin:3px 0 0 16px;padding:0 9px 0 20px;background-position:0 -32px}#chunyun .g-list .chunyun-fly{margin:3px 0 0 20px;padding:0 6px 0 20px;background-position:0 -66px}#chunyun .g-list .chunyun-train,#chunyun .g-list .chunyun-fly{background-image:url(http://p1.qhimg.com/t016b5f73e8e4be1047.png);background-repeat:no-repeat}#bainian.activity-bd{padding:0;height:110px;background:url(http://p1.qhimg.com/t01b578f2d9feee802d.jpg) no-repeat 2px 1px}#bainian .g-list li{height:26px;line-height:26px}#bainian .g-list .g-pic{margin:11px 0 0 3px;width:68px;height:99px}#bainian.activity-bd .act-topic{margin:10px 0 9px;height:33px}#bainian .g-list .headline{width:166px}#bainian .g-list .split{padding-left:2px;font-size:10px}#bainian .g-list .chunyun-train{margin-right:4px}#bainian .g-pic a:hover{margin-left:2px}#channel{float:left}#channel .section-hd{overflow:hidden;position:relative;width:238px;height:23px}#channel .section-hd .g-tab{height:23px;width:246px}#channel .section-hd .g-tab li{height:22px}#channel .section-hd .g-tab li a{top:3px;width:59px;height:17px;line-height:17px}#channel .section-hd .g-tab li.on a{cursor:pointer}#channel .section-hd .g-tab li.on a:hover{text-decoration:underline}#channel .section-bd{overflow:hidden;padding-top:9px;height:153px}#channel .section-bd a{color:#323232}#channel .section-bd a:hover{color:#e60012}#channel .g-list{margin-bottom:8px;background:#fcfcfc}#channel .g-list .dot{margin:11px 7px 0 0}#channel .g-list a{display:inline-block}#channel .g-list .g-pic{position:relative;margin-right:6px;margin-bottom:4px;padding-left:0;background:none}#channel .g-list .g-pic,#channel .g-list .g-pic a{width:98px;height:66px}#channel .g-list .g-pic .mask{opacity:0;filter:Alpha(opacity=0)}#channel .g-list .g-pic a:hover .mask{top:0;width:98px;height:66px;opacity:0.1;filter:Alpha(opacity=10)}#channel .g-item{margin-left:15px}#channel .g-item .subtitle,#channel .g-item li{margin-right:4px;height:24px;line-height:24px}#channel .section-bd .btn{z-index:4;position:absolute;cursor:pointer}#channel .section-bd .btn .icon{z-index:2;overflow:hidden;position:absolute;text-indent:-99em}#channel .section-bd .btn .bg{z-index:1;position:absolute;top:0;left:0;background:#000;opacity:0.2;filter:Alpha(opacity=20)}#channel .section-bd a.btn:hover .bg{opacity:0.4;filter:Alpha(opacity=40)}#channel .section-bd .prev{left:0}#channel .section-bd .next{right:0}#channel .section-bd .prev .icon{background-position:0 0}#channel .section-bd .next .icon{background-position:-26px 0}#channel-bar ul{overflow:hidden;zoom:1;padding-top:8px;height:169px}#channel-bar li{display:inline;overflow:hidden;float:left;margin-bottom:4px;padding-left:32px;width:35%;height:29px;line-height:29px;font-family:simsun;background-repeat:no-repeat}#channel-bar .split{padding:0 3px;font-size:10px}#top-channel .section-bd{width:238px;height:216px}#top-channel .g-list li{margin-left:15px;width:220px;height:28px;line-height:22px}#top-channel .g-list li .video,#top-channel .g-list li .pic{padding-right:28px}#top-channel .g-list li .video{background-position:right -284px}#top-channel .g-list li .pic{background-position:right -310px}#top-channel .g-list .g-pic{margin-bottom:8px}#top-channel .g-list .g-pic,#top-channel .g-list .g-pic a,#top-channel .g-list .g-pic a:hover .mask{width:208px;height:90px}#top-channel .g-list .g-pic em,#top-channel .g-list .g-pic span{height:20px;line-height:20px}#top-channel .g-list .g-pic .btn{top:25px;width:22px;height:40px}#top-channel .g-list .g-pic .btn .icon{top:11px;left:6px;width:10px;height:19px;background-color:transparent}#top-channel .g-list .g-pic .btn .bg{width:22px;height:40px}#user-channel{position:relative;top:0;left:0;overflow:hidden}#user-channel .section{position:absolute;left:0;top:-999em}#channel-video .section-bd{padding-left:9px;width:229px}#channel-video .g-list li{margin-left:6px;padding-left:9px;width:95px;height:25px;line-height:24px;background-position:0 -62px}#channel-video .g-list .g-pic em{text-indent:20px;background-position:4px -434px}#channel-mall .section-bd{position:relative;margin-left:6px;padding-top:2px;width:224px;height:148px}#channel-mall .g-list{position:relative;margin-top:7px;margin-left:-6px;width:250px}#channel-mall .g-list li{margin-left:6px;margin-right:4px;width:100px;height:25px;line-height:24px}#channel-mall .g-list .g-pic{margin:-9px 0 9px 0;padding-left:6px;width:112px;height:79px;border-width:0 1px 1px 0;border-style:solid;border-color:#ededed}#channel-mall .g-list .g-pic div{margin-top:6px}#channel-mall .g-list .g-pic div,#channel-mall .g-list .g-pic a,#channel-mall .g-list .g-pic a:hover .mask{width:106px;height:67px;text-align:center}.ie6 #channel-mall .g-list,.ie7 #channel-mall .g-list{margin-top:9px}#channel-game .section-bd{padding-left:9px;width:229px}#channel-game .g-list li{margin-left:6px;margin-right:4px;width:100px;height:25px;line-height:24px}#channel-caipiao .section-bd{padding-left:9px;width:229px}#channel-caipiao .g-list li{margin-left:6px;width:208px;height:30px;line-height:24px;color:#eaeaea}#channel-caipiao .g-list li em{margin-right:10px;color:#999}#channel-caipiao .g-list li a{margin:0 4px}#channel-caipiao .g-list .dot{margin-right:3px}#channel-caipiao .g-list .info{margin-bottom:9px;height:35px;border-bottom:1px dashed #ddd}#channel-caipiao .g-list .g-pic{padding-left:0;margin-left:0;margin-bottom:0;width:222px;height:40px}#channel-caipiao .g-list .g-pic a{margin:0;padding:5px 7px;width:208px;height:30px}#channel-caipiao .g-list .g-pic a:hover{padding:4px 6px;border:1px solid #ddd}#channel-tuan .section-bd{padding-left:9px;width:229px}#channel-tuan .g-list li{margin-left:6px;margin-right:4px;width:100px;height:25px;line-height:24px}#channel-novel .section-bd{padding-left:9px;width:229px}#channel-novel .g-list li{margin-left:6px;margin-right:4px;width:140px;line-height:22px}#channel-novel .g-list .headline{margin-top:1px;margin-left:3px;padding-top:6px;width:214px;height:55px;border-top:1px dashed #ddd}#channel-novel .g-list .headline div{width:230px;height:25px}#channel-novel .g-list .headline div a{margin-right:16px}#channel-novel .g-list .g-pic{margin-top:4px}#channel-novel .g-list .g-pic,#channel-novel .g-list .g-pic a,#channel-novel .g-list .g-pic a:hover .mask{width:64px;height:74px}#channel .sy{background-position:9px 8px}#channel .tg{background-position:9px -25px}#channel .gw{background-position:9px -55px}#channel .cp{background-position:9px -87px}#channel .yx{background-position:9px -117px}#channel .dy{background-position:9px -149px}#channel .yl{background-position:9px -180px}#channel .yy{background-position:9px -239px}#channel .ly{background-position:9px -269px}#channel .ty{background-position:9px -295px}#channel .cx{background-position:9px -324px}#hot-site{position:relative;float:right;padding:4px 0 6px}#hot-site .hot-site-hd{display:none}#hot-site .hot-site-bd .famous-list{overflow:visible;padding:2px 0 4px}#hot-site .hot-site-bd .list li{padding:0 7px;width:14.7%;text-align:center}#hot-site .hot-site-bd .list li a{background-repeat:no-repeat;background-position:0 6px}#hot-site .hot-site-bd .list li a,#hot-site .hot-site-bd .list li span{display:inline-block}#hot-site .hot-site-bd .comm-list{padding:4px 0}#hot-site .g-btn-open,#hot-site .g-btn-close{position:absolute;bottom:-8px;right:4px}#hot-site .g-btn-close{bottom:4px}#hot-site .hot-site-bd .site-group{z-index:2;overflow:visible;position:relative}#hot-site .hot-site-bd .site-group .g-toggle{display:inline-block;position:static;vertical-align:middle;margin-top:-2px;margin-left:-3px;width:12px;height:16px;background-position:2px -24px}#hot-site .hot-site-bd .site-group .group-list{display:none;z-index:27;position:absolute;top:21px;left:26px;padding-top:8px}#hot-site .hot-site-bd .site-group .group-list .inner{overflow:hidden;padding:1px;width:68px;border:2px solid #f1f1f1;background:#c9c9c9}#hot-site .hot-site-bd .site-group .group-list a{display:block;overflow:hidden;padding-left:0;height:22px;line-height:22px;*line-height:24px;font-family:simsun;font-size:12px;border-bottom:1px solid #fdfdfd;background:#fdfdfd}#hot-site .hot-site-bd .site-group .group-list a:hover{border-color:#eceaeb;background:#eceaeb}.ie7 #hot-site .hot-site-bd .site-group .g-toggle,.ie6 #hot-site .hot-site-bd .site-group .g-toggle{margin-top:0;margin-left:-6px;display:inline;zoom:1}#hot-site .hot-site-bd .list li a.favicon{margin-left:-10px;padding-left:20px}#hot-site .hot-site-bd .list .site-group a.favicon{position:relative;margin-left:6px}#hot-site .hot-site-bd .list .site-group a.site{margin-left:12px}#mynav .mynav-icon{position:absolute;top:0;right:0;width:32px;height:32px;background:url(http://p1.qhimg.com/t01c94e8e00cc0b2ddf.png) no-repeat -7px 0;cursor:pointer}#mynav .mynav-iframe{display:none;z-index:10;position:absolute;top:0;left:1px;width:745px;height:350px;background-color:#fefefe}#mynav .mynav-iframe iframe{width:745px;height:350px}#mynav .btn-close{display:none;overflow:hidden;z-index:13;position:absolute;top:7px;right:8px;width:15px;height:16px;text-indent:999px;background:url(http://p1.qhimg.com/d/icon/index_icon_111116.png) no-repeat 0 -56px}#mynav.open .btn-close{display:block}#mynav.open .mynav-iframe{display:block}#mynav-tips .cont{text-align:right;color:#666}#mynav-tips .cont a{text-decoration:underline;color:#3a86c0}#zhengpin-tips .cont{line-height:14px;text-indent:12px}#hot-site-iguess{position:relative;padding:1px 10px 0;height:95px;zoom:1}#hot-site-iguess:after{display:block;clear:both;visibility:hidden;height:0;content:''}#hot-site-iguess .iguess{margin-top:-1px;float:left;width:33.3%}#hot-site-iguess .tab{padding:0 10px 0 20px}#hot-site-iguess .tab a,#hot-site-iguess .tab .split{float:left;line-height:30px;font-size:12px}#hot-site-iguess .tab a{padding:1px 4px 0;color:#666}#hot-site-iguess .tab .on{padding-top:0;color:#333;border-top:1px solid #bcbcbc}#hot-site-iguess .tab .split{padding:0 4px;color:#e4e4e4}#hot-site-iguess .tab .refresh{overflow:hidden;display:inline;float:right;margin-top:8px;width:16px;height:15px;text-indent:-99px;background-position:0 -175px;cursor:pointer}#hot-site-iguess .tab .g-btn-change{display:inline;float:right;margin-top:8px}#hot-site-iguess .cont ul{border-left:1px solid #f0f0f0}#hot-site-iguess .first .cont ul{border-left:0 none}#hot-site-iguess .iguess .cont li{overflow:hidden;width:49.9%;height:29px;text-align:center}#hot-site-iguess .iguess .cont li a{padding:0 5px}#hot-site-iguess .loading{display:none;padding-top:18px;height:71px;line-height:50px;text-align:center;color:#7a7a7a}#hot-site-iguess .loading img{margin-right:12px;vertical-align:middle}#mbar{float:right;overflow:hidden;margin-top:0;height:32px;line-height:32px;text-align:center}#mbar .mbar-hd{display:none}#mbar .mbar-bd a{margin:0 8px}#cool-site{float:right;overflow:hidden;margin-top:0}#cool-site .cool-site-hd{display:none}#cool-site .panel{overflow:hidden;padding-bottom:4px;zoom:1}#cool-site .nav{overflow:hidden;margin:0 0 4px -1px;height:30px;background-color:#ecf4fd}#cool-site .nav a{float:left;margin-top:7px;padding:0 11px 0 12px;border-left:1px solid #c2d2e2;line-height:1.2}#cool-site .item{position:relative;overflow:hidden;padding:0 8px;height:30px;zoom:1}#cool-site .hover{background:#f3fafe}#cool-site .item .subtitle{overflow:hidden;z-index:9;position:relative;float:left;_margin-right:-3px;padding-left:4px;width:52px;line-height:29px;font-weight:normal}#cool-site .item .list{margin-right:50px}#cool-site .item .list li{padding-right:8px;width:15.3%}#cool-site .item .list li a.favicon{padding-left:20px;background-repeat:no-repeat;background-position:0 1px;*background-position:0 0}#cool-site .item .more{position:absolute;top:0;right:12px;width:46px;line-height:29px;font-size:12px;color:#919191}#cool-site .nav a,#cool-site .item .subtitle a{color:#07519a}#cool-site .nav a:hover,#cool-site .item .subtitle a:hover,#cool-site .item .more:hover{color:#e60012}#cool-site .guess-open{height:95px}#cool-site .guess-open .cool-site-guess{display:block}#cool-site a.guess-toggle{display:none;overflow:hidden;position:absolute;top:9px;right:8px;width:14px;height:10px;text-indent:-99em;background:url(http://p1.qhimg.com/t01b133755d74db375f.png) no-repeat 0 -15px}#cool-site a.guess-toggle:hover{background-position:0 0}#cool-site .cool-site-guess{display:none;position:relative;height:54px;border:1px solid #ececec;background:#f6f6f6}#cool-site .cool-site-guess ul{overflow:hidden;width:730px;height:54px}#cool-site .cool-site-guess ul li{overflow:hidden;float:left;width:49.9%;height:28px;line-height:28px;font-size:12px;color:#989898}#cool-site .cool-site-guess ul .dot{margin:13px 1px 0 10px;background-color:#d8d8d8}#cool-site .cool-site-guess ul a{display:inline-block;margin:0 10px 0 6px}#cool-site .cool-site-guess ul a:hover{color:#e60012!important}#cool-site .cool-site-guess ul .blue{margin-right:6px}#cool-site .cool-site-guess .g-point{position:absolute;top:-13px;left:34px}#cool-site .cool-site-guess .g-point-top .border{border-color:transparent transparent #ececec}#cool-site .cool-site-guess .g-point-top .bg{border-color:transparent transparent #f6f6f6}#lifestyle{margin:0 auto;width:208px;border-top:1px solid #e2e2e2}#lifestyle .lifestyle-hd{padding-left:6px;padding-bottom:3px;height:30px}#lifestyle .lifestyle-hd .title{overflow:hidden;float:left;height:30px;line-height:30px;font-size:12px;font-weight:normal;color:#323232}#lifestyle .lifestyle-hd .tab{float:right;margin-top:8px}#lifestyle .lifestyle-hd .tab li{display:inline;float:left;position:relative;margin-left:6px;padding-right:6px;height:15px;line-height:15px;font-size:12px;border-right:1px solid #868686}#lifestyle .lifestyle-hd .tab .last{border-right:none}#lifestyle .lifestyle-hd .tab li a{color:#868686}#lifestyle .lifestyle-hd .tab li a:hover{text-decoration:none;color:#e60012}#lifestyle .lifestyle-bd{padding-left:6px}#lifestyle input,#lifestyle select,#lifestyle span{display:inline-block;font-size:12px}#lifestyle .lifestyle-bd .text{padding-left:2px;width:40%;height:18px;line-height:18px;border:1px solid #b8b8b8}#lifestyle .lifestyle-bd .price{height:20px;width:30%}#lifestyle .lifestyle-bd .btn{padding:0 2%;height:22px;cursor:pointer}#bangbang{overflow:hidden;position:absolute;left:0}#bangbang .bangbang-hd{display:none;height:36px;line-height:36px}#bangbang .bangbang-hd h2{margin-left:15px;color:#323232}#bangbang .bangbang-bd{padding-left:9px;width:229px}#bangbang .g-list{margin-top:14px}#bangbang .g-list li{margin-left:6px;margin-right:4px;width:214px;height:28px;line-height:28px;color:#ddd}#bangbang .g-list li a{margin:0 4px}#bangbang .g-list .g-pic{position:relative;margin-left:6px;margin-bottom:6px}#bangbang .g-list .g-pic,#bangbang .g-list .g-pic a{width:208px;height:78px}#bangbang .g-list .g-pic a{margin:0}#bangbang .g-list .g-pic em,#bangbang .g-list .g-pic span{height:20px;line-height:20px;color:#fcfcfc}#bangbang .g-list .g-pic .mask{opacity:0;filter:Alpha(opacity=0)}#bangbang .g-list .g-pic a:hover .mask{top:0;width:208px;height:86px;opacity:0.1;filter:Alpha(opacity=10)}#bangbang .dam{position:absolute;left:9px;bottom:0;width:226px;height:14px;background:#fcfcfc;font-size:0}#category-bottom{overflow:hidden;display:inline-block}#category-bottom .category-bottom-hd{display:none}#category-bottom .category-bottom-bd,#category-bottom .category-bottom-ft{overflow:hidden}#category-bottom .category-bottom-bd .inner,#category-bottom .category-bottom-ft .inner{overflow:hidden;zoom:1;padding:10px 0;width:1100px}#category-bottom .panel{overflow:hidden;float:left;padding-left:16px;width:232px}#category-bottom .item{overflow:hidden}#category-bottom .subtitle{overflow:hidden;padding-left:26px;height:29px;line-height:29px;font-weight:normal;background-repeat:no-repeat}#category-bottom .subtitle a{color:#07519a}#category-bottom .subtitle a:hover{color:#e60012}#category-bottom .more{color:#919191}#category-bottom .more:hover{color:#e60012}#category-bottom .category-bottom-bd .item{width:280px}#category-bottom .category-bottom-bd .subtitle,#category-bottom .category-bottom-bd .list{float:left;width:195px}#category-bottom .category-bottom-bd .subtitle{width:53px}#category-bottom .category-bottom-bd .list li{padding-right:8px;width:22%}#category-bottom .category-bottom-ft{margin:0 16px;width:966px;border-top:1px dashed #e1e1e1}#category-bottom .category-bottom-ft .panel{position:relative;left:-16px}#category-bottom .category-bottom-ft .item{width:220px}#category-bottom .category-bottom-ft .subtitle{width:62px}#category-bottom .category-bottom-ft .list li{padding-left:26px;width:38%}#category-bottom .sy{background-position:0 8px}#category-bottom .tg{background-position:0 -25px}#category-bottom .gw{background-position:0 -55px}#category-bottom .cp{background-position:0 -87px}#category-bottom .yx{background-position:0 -117px}#category-bottom .dy{background-position:0 -149px}#category-bottom .yl{background-position:0 -180px}#category-bottom .yy{background-position:0 -239px}#category-bottom .ly{background-position:0 -269px}#category-bottom .ty{background-position:0 -296px}#category-bottom .cx{background-position:0 -324px}#category-bottom .xw{background-position:0 -352px}#category-bottom .jy{background-position:0 -380px}#category-bottom .mn{background-position:0 -407px}#category-bottom .nx{background-position:0 -435px}#category-bottom .zp{background-position:0 -462px}#category-bottom .dn{background-position:0 -491px}#category-bottom .sh{background-position:0 -520px}#category-bottom .ah{background-position:0 -581px}#category-bottom .bz{background-position:0 -638px}#category-bottom .zs{background-position:0 -695px}#category-bottom .et{background-position:0 -666px}#category-bottom .qc{background-position:0 -609px}#category-bottom .dfz{background-position:0 -551px}#footer{margin-top:25px}#loulou{height:384px;border:none;width:100%}#copyright{margin-top:0}#copyright .copyright-bd{height:40px;line-height:40px;text-align:center;font-size:12px;color:#c2c2c2}#copyright a,#copyright .rights{padding:0 3px;color:#c2c2c2}#copyright a:hover{color:#e60012}.g-tips{display:none;position:absolute;z-index:21;padding:2px 4px;border:1px solid #febe8f;background-color:#fff8d9;-moz-border-radius:2px;-webkit-border-radius:2px;border-radius:2px}.g-tips .cont{line-height:18px;font-size:12px;white-space:nowrap;font-family:simsun;color:#7a7a7a}.g-tips .close{position:absolute;top:3px;line-height:12px;font-size:12px;font-weight:bold;font-family:airal;cursor:pointer;color:#ddd7b9!important}.g-tips .a.close:hover{text-decoration:none}.g-tips-top:before,.g-tips-top:after,.g-tips-top .arrow-border,.g-tips-top .arrow-background{overflow:hidden;position:absolute;left:50%;margin-left:-5px;width:0;height:0;border-width:6px;border-style:solid dashed dashed;content:''}.g-tips-top:before,.g-tips-top .arrow-border{bottom:-12px;border-color:#febe8f transparent transparent transparent}.g-tips-top:after,.g-tips-top .arrow-background{bottom:-11px;border-color:#fff8d9 transparent transparent transparent}.g-tips-right:before,.g-tips-right:after,.g-tips-right .arrow-border,.g-tips-right .arrow-background{overflow:hidden;position:absolute;top:50%;margin-top:-5px;width:0;height:0;border-width:6px;border-style:dashed solid dashed dashed;content:''}.g-tips-right:before,.g-tips-right .arrow-border{left:-12px;border-color:transparent #febe8f transparent transparent}.g-tips-right:after,.g-tips-right .arrow-background{left:-11px;border-color:transparent #fff8d9 transparent transparent}.g-tips-bottom:before,.g-tips-bottom:after,.g-tips-bottom .arrow-border,.g-tips-bottom .arrow-background{overflow:hidden;position:absolute;left:50%;margin-left:-5px;width:0;height:0;border-width:6px;border-style:dashed dashed solid;content:''}.g-tips-bottom:before,.g-tips-bottom .arrow-border{top:-12px;border-color:transparent transparent #febe8f transparent}.g-tips-bottom:after,.g-tips-bottom .arrow-background{top:-11px;border-color:transparent transparent #fff8d9 transparent}.g-tips-left:before,.g-tips-left:after,.g-tips-left .arrow-border,.g-tips-left .arrow-background{overflow:hidden;position:absolute;top:50%;margin-top:-5px;width:0;height:0;border-width:6px;border-style:dashed dashed dashed solid;content:''}.g-tips-left:before,.g-tips-left .arrow-border{right:-12px;border-color:transparent transparent transparent #febe8f}.g-tips-left:after,.g-tips-left .arrow-background{right:-11px;border-color:transparent transparent transparent #fff8d9}.g-tips-top .close,.g-tips-right .close,.g-tips-bottom .close{right:4px}.g-tips-left .close{left:4px}#background{z-index:1;position:absolute;top:0;left:0;width:100%;height:1500px;min-width:1002px}#background .bg-outer{position:absolute;top:0;left:0;width:100%;height:1500px;min-width:1002px}#background .bg-inner{width:100%;min-width:1002px;height:780px}#search,.search-bg{-moz-border-radius:4px;-webkit-border-radius:4px;border-radius:4px}#hot-site,#activity,#channel,#cool-site,#bangbang,#category-bottom{-moz-border-radius:4px;-webkit-border-radius:4px;border-radius:4px;-moz-box-shadow:0 1px 2px #d3d3d3;-webkit-box-shadow:0 1px 2px #d3d3d3;box-shadow:0 1px 2px #d3d3d3}#activity{width:238px}#channel{width:238px;height:1240px}#user-channel{height:740px}#bangbang{bottom:0;width:238px;height:108px}#hot-site,#mbar,#cool-site{width:748px}#category-bottom{width:998px}.search-bg{border-color:#b6d2f9}#activity.g-box{border-color:#c9c9c9;background-color:#fcfcfc}#channel.g-box{border-color:#c9c9c9;background-color:#fcfcfc}#hot-site.g-box{border-color:#c9c9c9;background-color:#fff}#cool-site.g-box{border-color:#c9c9c9;background-color:#fff}#bangbang.g-box{border-color:#c9c9c9;background-color:#fcfcfc}#category-bottom.g-box{border-color:#c9c9c9;background-color:#fcfcfc}#footer.g-box{border-width:1px 0 0;border-color:#d7d7d7;background-color:#eee}#copyright.g-box{border-width:1px 0 0;border-color:#7e7e7e;background-color:#919191}#topbar{background-color:#f8f8f8}#topbar .menu .tiyanchoujiang{background-image:url(http://p1.qhimg.com/t013222c2b98eb900ca.png)}#search-btn{background-image:url(http://p1.qhimg.com/t01f512ea49aee5be1e.png)}.search-bg{background-color:#edf8ff;background-image:url(http://p1.qhimg.com/t01634bd7d8ff019703.jpg)}#search-engine #eng-logo,#search-engine .eng-list a{background-image:url(http://p1.qhimg.com/t01a3512ba8085ae4fe.png)}#channel .section-bd{background:url(http://p1.qhimg.com/t0138317345af137ec6.gif) no-repeat center}#channel .btn .icon{background-image:url(http://p1.qhimg.com/t01091c4d6600879f01.png);background-repeat:no-repeat}#hot-site .hot-site-bd .comm-list{background:url(http://p1.qhimg.com/t018ede8aadd2740750.png) no-repeat center 0}#hot-site-iguess{background:url(http://p1.qhimg.com/t018ede8aadd2740750.png) no-repeat center 0}#channel-bar li,#category-bottom .item .subtitle{background-image:url(http://p1.qhimg.com/t0175d99d8a40390c4a.png)}.g-toggle,#topbar .menu .edition a,#topbar .menu .theme-trigger a,#header .weather .future,#header .joke .refresh,#header .email,#top-channel .video,#top-channel .pic,#channel-video .g-list li,#channel-video .g-list .g-pic em,#hot-site-iguess .tab .refresh,#search-hotword-update{background-image:url(http://p1.qhimg.com/t016a1e64b9742a5dca.png);background-repeat:no-repeat}</style>
+<script type="text/javascript">
+(function(){
+	hao360.themeData = [DEFAULT_THEME,""];
+	var now = +hao360.todayObj,
+		start = new Date(2013,1,7),
+		end = new Date(2013,1,17),
+		customData = new AppData('api.hao.360.cn', HAO_CONFIG.themeConfig.v).get('userTheme'),
+		xinnianThemeShow = !(customData&&customData[0]=="xinnian2013")&&!qboot.cookie.get("xinnianThemeHide")&&now>+start&&now<+end,
+		themeData = xinnianThemeShow ?["xinnian2013",""]:customData;
+	hao360.xinnianThemeShow = xinnianThemeShow;
+	if(themeData&&themeData.length==2&&themeData[0]!=DEFAULT_THEME){
+		if(API_SNAPSHOTNUM.theme&&API_SNAPSHOTNUM.theme[themeData[0]]&&API_SNAPSHOTNUM.theme[themeData[0]]!=themeData[1]){
+			themeData[1] = API_SNAPSHOTNUM.theme[themeData[0]];
+			new AppData('api.hao.360.cn', HAO_CONFIG.themeConfig.v).set('userTheme', themeData);
+		}
+		hao360.docWrite('<link rel="stylesheet" href="http://'+HAO_CONFIG.themeConfig.domain+'/theme.php?theme='+themeData[0]+'&v='+HAO_CONFIG.themeConfig.v+'&r='+themeData[1]+'" id="themeFile"/>');
+		hao360.themeData = themeData; 
+	}
+})();
+var HEAD_END_TIME = (new Date).getTime();
+</script>
+<!-- case ie version; -->
 </head>
+<body class="standard">
+<div id="topbar" class="gmodule">
+	<div class="topbar-bd gclearfix">
+		<ul class="nav">
+			<li><a href="http://v.360.cn/dianying/index.html" id="mvlink">电影</a></li>
+			<li><a href="http://v.360.cn/dianshi/index.html" id="tvlink">电视剧</a></li>
+			<li><a href="http://g.360.cn">游戏</a></li>
+			<li><a href=" http://wan.360.cn/?src=DH-top-all">页游</a></li>
+			<li><a href="http://cp.360.cn/?a=dht">彩票</a></li>
+			<li><a href="http://tuan.360.cn/?fname=hao_head_tuan&eee=hao_head_tuan&fsign=01d6e5b065">团购</a></li>
+			<li><a href="http://mall.360.cn/?fname=hao_head1_mall&eee=hao_head1_mall">购物</a></li>
+			<li><a href="http://t.360.cn/?from=1">特供机</a></li>
+                        <li><a href="http://zhushou.360.cn/?ref=wzdh" id="topbar-lastnav">手机应用</a></li>
+                        <li><a href="http://soft.so.com/">软件下载</a></li>
+                       <li><a href="http://yunpan.360.cn/?sid=700">我的云盘</a></li>
+		</ul>
+		<ul class="menu">
+			<li><a id="setHomepage" href="http://hao.360.cn/sethomepage.html" onclick="try{this.style.behavior='url(#default#homepage)';this.setHomePage('http://hao.360.cn/');return(false);}catch(e){}">设为主页</a></li>
+			<li>|</li>
+			<li><a href="http://hao.360.cn/iexiufu.html">主页修复</a></li>
+			<li>|</li>
+			<li><a href="http://feedback.hao.360.cn/">反馈</a></li>
+			<li>|</li>
+			<li class="edition">
+				<a href="###">正式版</a>
+				<div class="more-edition">
+					<div data-v="standard">正式版</div>
+					<div data-v="my">个人版</div>
+					<div data-v="kuanping">大字版</div>
+				</div>
+			</li>			
+			<li></li>
+			<li class="theme-trigger">
+				<a>换肤</a>
+				<div class="g-point g-point-top">
+					<ins class="border"></ins>
+					<ins class="bg"></ins>
+				</div>
+			</li>
+					</ul>
+	</div>
+</div><div id="theme-panel" class="gmodule"></div>
+	<div id="doc">
+	<div id="doc-bd">
+		<div id="hd">
+            <div id="header" class="gclearfix">
+                                           <div id="logo">
+			<a id="imgLogo" href="http://hao.360.cn/" target="_self" title="360导航,新一代安全上网导航">
+				<img src="http://p1.qhimg.com/t0151320b1d0fc50be8.png" />
+			</a>
+		</div>
 
-<body>
+			<div class="weather" id="weather">
+		<div class="inner" id="weather-inner">
+		</div>
+		<script type="text/template" id="weather-template">
+			<div class="city">
+				<h3 class="name">{area}</h3>
+				<a class="change" id="weather-change">[切换]</a>
+			</div>
+			<a href="http://www.weather.com.cn/weather/{code}.shtml#7d" target="weather{code}" class="tody">
+				<div style="background:url(http://h1.qhimg.com/images/weather/hdico/{todayCode=weather.today.icoCode}.png) no-repeat;_background-image:none;_filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='http://h1.qhimg.com/images/weather/hdico/{todayCode}.png',sizingMethod='image')" class="pic"></div>
+				<div class="desc">今 {weather.today.weather}</div>
+				<div class="temperature" lang="en-US">{weather.today.c}&deg;C</div>
+			</a>
+			<a href="http://www.weather.com.cn/weather/{code}.shtml#7d" target="weather{code}" class="tomorrow">
+				<div style="background:url(http://h1.qhimg.com/images/weather/hdico/{tomorrowCode=weather.tomorrow.icoCode}.png) no-repeat;_background-image:none;_filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='http://h1.qhimg.com/images/weather/hdico/{tomorrowCode}.png',sizingMethod='image')" class="pic"></div>
+				<div class="desc">明 {weather.tomorrow.weather}</div>
+				<div class="temperature" lang="en-US">{weather.tomorrow.c}&deg;C</div>
+			</a>
+			<a class="future" title="点击查看7日天气" target="weather{code}" href="http://www.weather.com.cn/weather/{code}.shtml#7d"></a>
+		</script>
+		<script type="text/javascript">
+			(function(){
+				var cityCodeCookie = qboot.cookie.get('city_code'),
+					weatherAppData = new AppData('api.hao.360.cn', HAO_CONFIG.weather.weather.r),
+					cityCodeAppData = weatherAppData.get('weather') && weatherAppData.get('weather').code;
+				if(cityCodeCookie && cityCodeAppData && (cityCodeCookie != cityCodeAppData)) {
+					areaAppData = new AppData('api.hao.360.cn', HAO_CONFIG.weather.area.r);
+					weatherAppData.remove('weather');
+					areaAppData.remove('area');
+				}				
+				R('weather-inner').render('weather-template', HAO_CONFIG.weather.weather);
+			})();
+		</script>
+		<div class="setting" style="display:none">
+			<fieldset>
+				<legend class="title">选择城市<a href="#" class="cancel js-cancel" id="weather-cancel">返回</a></legend>
+				<select name="weather-prov" id="weather-prov" class="">
+				</select>
+				<select name="weather-city" id="weather-city">
+				</select>
+				<select name="weather-town" id="weather-town">
+				</select>
+				<input type="button" value="更换" class="done" />
+			</fieldset>
+		</div>
+	</div>
+	<a class="calendar" id="calendar" href="http://hao.360.cn/wan_nian_li.html">
+	<script type="text/javascript">
+	(function(){var e=hao360.todayObj,t=[];t.push("<span>"),t.push([e.getMonth()+1,"\u6708",e.getDate(),"\u65e5"].join("")),t.push(["\u5468\u65e5","\u5468\u4e00","\u5468\u4e8c","\u5468\u4e09","\u5468\u56db","\u5468\u4e94","\u5468\u516d"][e.getDay()]),t.push("</span><span>"),t.push(hao360.lunar(e)),t.push("</span>"),hao360.docWrite(t.join(""))})();
+	</script>
+	</a>
+	<div class="widget">
+		<div class="joke">
+			<a href="" onclick="return false;" title="换一条" class="refresh"></a>
+			<a id="ajoke" href="#" class="text" target="xiaohua"></a>
+			<script type="text/javascript">
+				(function(){
+					var defaultJoke = [['名叫备胎的人', 'http://hao.360.cn/youmoxiaohua.html?id=10110']];
+					function jokeHtml(jokeData){
+						jokeData = R('ajoke').getData() || defaultJoke;
+						var data = jokeData[Math.floor(Math.random() * jokeData.length)];
+						var ajoke = document.getElementById('ajoke');
+						ajoke.innerHTML = '笑话：' + data[0];
+						ajoke.title = data[0];
+						ajoke.href = data[1];
+					}
 
-  <div class="wrapper">
-    <header>
-      <h1 class="title">Datasource</h1>
-    </header>
-    <div id="container">
-      <p class="tagline">This DataSource java component aim to provide API to connect databases and java bean</p>
-      <div id="main" role="main">
-        <div class="download-bar">
-        <div class="inner">
-          <a href="https://github.com/gary627/DataSource/tarball/master" class="download-button tar"><span>Download</span></a>
-          <a href="https://github.com/gary627/DataSource/zipball/master" class="download-button zip"><span>Download</span></a>
-          <a href="https://github.com/gary627/DataSource" class="code">View Datasource on GitHub</a>
-        </div>
-        <span class="blc"></span><span class="trc"></span>
-        </div>
-        <article class="markdown-body">
-          <h3>Welcome to GitHub Pages.</h3>
+					R('ajoke').render(jokeHtml, HAO_CONFIG.feedsConfig.joke, {
+						failer : jokeHtml,
+						max : 300
+					});
+					hao360.jokeHtml = jokeHtml;
+				})();
+			</script>
+		</div>
+		<div class="email">
+			<input type="text" class="text mail-trigger" id="mail-trigger" placeholder="邮箱帐号">
+			<div class="mail-login" id="mail-optbox">
+				<form  name="mail-form" id="mail-form" method="post" target="_blank">
+					<p>
+						<input type="text" class="text" id="mail-user" placeholder="邮箱帐号">
+					</p>
+					<p>
+						<select id="mail-opts" class="mail-type">
+							<option value="">请选择邮箱</option>
+						</select>	
+					</p>
+					<p>
+						<input type="password"  class="password" id="mail-pwd" placeholder="******">
+						<button class="btn-login" type="submit">登录</button>
+						<span id="mail-hide"></span>
+					</p>
+				</form>			
+			</div>
+		</div>
+	</div>
+</div>            <div id="search" class="gmodule">
+	<div class="search-hd">
+		<ul class="tab gclearfix">
+			<li data-cate="webpage" class="on">
+				<a href="" onclick="return false;">网页</a>
+				<!--[if lt IE 9]>
+				<b class="radius1 t-l"></b><b class="radius1 t-r"></b><b class="radius1 b-l"></b><b class="radius1 b-r"></b>
+				<![endif]-->
+			</li>
+			<li data-cate="news">
+				<a href="http://sh.qihoo.com/" class="link">新闻</a>
+				<!--[if lt IE 9]>
+				<b class="radius1 t-l"></b><b class="radius1 t-r"></b><b class="radius1 b-l"></b><b class="radius1 b-r"></b>
+				<![endif]-->
+			</li>			
+			<li data-cate="video">
+				<a href="http://video.so.com" class="link">视频</a>
+				<!--[if lt IE 9]>
+				<b class="radius1 t-l"></b><b class="radius1 t-r"></b><b class="radius1 b-l"></b><b class="radius1 b-r"></b>
+				<![endif]-->
+			</li>
+			<li data-cate="image">
+				<a href="http://hao.360.cn/bizhitupian.html" class="link">图片</a>
+				<!--[if lt IE 9]>
+				<b class="radius1 t-l"></b><b class="radius1 t-r"></b><b class="radius1 b-l"></b><b class="radius1 b-r"></b>
+				<![endif]-->
+			</li>
+			<li data-cate="music">
+				<a href="http://hao.360.cn/music.html" class="link">音乐</a>
+				<!--[if lt IE 9]>
+				<b class="radius1 t-l"></b><b class="radius1 t-r"></b><b class="radius1 b-l"></b><b class="radius1 b-r"></b>
+				<![endif]-->
+			</li>
+			<li data-cate="weibo">
+				<a href="http://www.weibo.com"  class="link">微博</a>
+				<!--[if lt IE 9]>
+				<b class="radius1 t-l"></b><b class="radius1 t-r"></b><b class="radius1 b-l"></b><b class="radius1 b-r"></b>
+				<![endif]-->
+			</li>
+			<li data-cate="map">
+				<a href="http://hao.360.cn/ditu.html" class="link">地图</a>
+				<!--[if lt IE 9]>
+				<b class="radius1 t-l"></b><b class="radius1 t-r"></b><b class="radius1 b-l"></b><b class="radius1 b-r"></b>
+				<![endif]-->
+			</li>
+			<li data-cate="wenda">
+				<a href="http://wenda.qihoo.com/" class="link">问答</a>
+				<!--[if lt IE 9]>
+				<b class="radius1 t-l"></b><b class="radius1 t-r"></b><b class="radius1 b-l"></b><b class="radius1 b-r"></b>
+				<![endif]-->
+			</li>
+			<li data-cate="shopping">
+				<a href="http://mall.360.cn/?fname=hao_search1_mall&eee=hao_search1_mall" class="link">购物</a>
+				<!--[if lt IE 9]>
+				<b class="radius1 t-l"></b><b class="radius1 t-r"></b><b class="radius1 b-l"></b><b class="radius1 b-r"></b>
+				<![endif]-->
+			</li>
+			<li data-link="flytrip">
+				<a href="http://go.360.cn/flight?src=homesearch" class="link">机票</a>
+				<!--[if lt IE 9]>
+				<b class="radius1 t-l"></b><b class="radius1 t-r"></b><b class="radius1 b-l"></b><b class="radius1 b-r"></b>
+				<![endif]-->
+			</li>
+			<li data-widget="car">
+				<a href="http://car.bitauto.com/?WT.mc_id=360ss" class="link">汽车</a>
+				<!--[if lt IE 9]>
+				<b class="radius1 t-l"></b><b class="radius1 t-r"></b><b class="radius1 b-l"></b><b class="radius1 b-r"></b>
+				<![endif]-->
+			</li>
+					</ul>
+	</div>
+	<div class="search-bd clearfix">
+		<div class="form-group">
+			<form id="search-form" target="_blank" action="http://www.so.com/s">
+				<div class="others-params webpage-somulti types-webpage" style="display:none">
+					<input type="hidden" name="ie" value="utf-8">
+					<input type="hidden" name="src" value="hao_phome">				
+				</div>
+				<fieldset>
+				<legend>综合搜索</legend>
+				<div id="search-engine" class="clearfix">
+					<div class="eng-list"></div>
+					<a id="eng-logo" class="somulti" title="综合搜索" hidefocus="true"></a>
+					<div class="g-toggle"></div>
+				</div>
+				<div id="search-input">
+					<!--[if lt IE 9]>
+					<b class="shadowtop"></b>
+					<b class="shadowleft"></b>
+					<![endif]-->
+					<input type="text" name="q" autocomplete="off" id="search-kw" />
+					<div id="search-hotword" class="g-toggle" onselectstart="return false;"></div>
+					<div id="search-hotword-update" data-expires="24"></div>
+				</div>
+				<button id="search-btn" type="submit">搜索一下</button>
+				</fieldset>
+			</form>
+			<div id="daily-hotword"></div>
+		</div>
+		<script type="text/javascript">var HAO_DATA={searchTabData:{defaultByCate:{news:"newsmulti",webpage:"so360",weibo:"weibo",music:"so360",video:"v360",image:"jike",wenda:"qihoo",map:"google",shopping:"taobao"},searchEngConf:{"webpage":{somulti:["http://so.360.cn/s","q","\u7efc\u5408\u641c\u7d22","http://www.so.com/","ie:utf-8;src:hao_search","\u641c\u7d22\u4e00\u4e0b"],so360:["http://www.so.com/s","q","360搜索","http://www.so.com/","ie:utf-8;src:hao_360so","360搜索"],bing:["http://cn.bing.com/search","q","\u5fc5\u5e94","http://cn.bing.com","from:360;ie:utf-8"],google:["http://www.google.com.hk/search","q","\u8c37\u6b4c","http://www.google.com.hk/webhp?client=aff-360daohang","client:aff-360daohang;hl:zh-CN;ie:utf-8;newwindow:1"],youdao:["http://www.youdao.com/search","q","\u6709\u9053","http://www.youdao.com/?keyfrom=360dh_01","keyfrom:360dh_01;ue:utf-8;vendor:360dh_01"],baidu:["http://www.baidu.com/s","wd","\u767e\u5ea6","http://www.baidu.com/","ie:utf-8"],jike:["http://www.jike.com/so","q","\u5373\u523B","http://www.jike.com/?fm=QH360&ac=so","fm:QH360;ie:utf-8"]},"music":{so360:["http://s.music.so.com/s","q","360音乐","http://music.so.com/","ie:utf-8;src:hao_360so","360音乐"],sogou:["http://mp3.sogou.com/music","query","\u641c\u72d7","http://mp3.sogou.com/","ie:utf-8"],baidu:["http://mp3.baidu.com/m","word","\u767e\u5ea6","http://mp3.baidu.com/","f:ms;ct:134217728;ie:utf-8"]},"video":{v360:["http://video.so.com/v","q","360影视","http://video.so.com/","code:utf-8","视频搜索"],google:["http://www.google.com.hk/search","q","\u8c37\u6b4c","http://www.google.com.hk/search","tbo:p;tbm:vid;source:vgc;tbs:vid;client:aff-360daohang;hl:zh-CN;ie:utf-8"],souku:["http://www.soku.com/v","keyword","\u641c\u5e93","http://www.soku.com/","ie:utf-8;cp:4002372;cpp:1000324"],baidu:["http://video.baidu.com/v","word","\u767e\u5ea6","http://video.baidu.com/","ie:utf-8"]},"image":{jike:["http://image.jike.com/so","q","\u5373\u523B","http://image.jike.com/?fm=QH360&ac=so","fm:QH360;ie:utf-8"],so360:["http://image.so.com/i","q","360图片","http://image.so.com/","ie:utf-8;src:hao_360so","360图片"],baidu:["http://image.baidu.com/i","word","\u767e\u5ea6","http://image.baidu.com/","cl:2;lm:-1;ct:201326592;ie:utf-8"],google:["http://images.google.com.hk/images","q","\u8c37\u6b4c","http://images.google.com.hk/imghp?client=aff-360daohang","client:aff-360daohang;hl:zh-CN;ie:utf-8"],youdao:["http://image.youdao.com/search?keyfrom=360dh_01","q","\u6709\u9053","http://image.youdao.com/search","keyfrom:360dh_01;ue:utf-8"],bing:["http://cn.bing.com/images/search","q","\u5fc5\u5e94","http://cn.bing.com/images","from:360;ie:utf-8"]},"weibo":{weibo:["http://s.weibo.com/weibo/","search","微博","http://s.weibo.com/","ie:utf-8;refer:360"]},"news":{newsmulti:["http://news.so.360.cn/ns","q","\u7efc\u5408\u65b0\u95fb","http://news.so.360.cn/","ie:utf-8;tn:news;src:hao_search","\u65b0\u95fb\u641c\u7d22"],google:["http://news.google.com.hk/news/search","q","\u8c37\u6b4c","http://news.google.com.hk/?client=aff-360daohang","client:aff-360daohang;hl:zh-CN;ie:utf-8"],baidu:["http://news.baidu.com/ns","word","\u767e\u5ea6","http://news.baidu.com/","ie:utf-8"],youdao:["http://news.youdao.com/search?keyfrom=360dh_01","q","\u6709\u9053","http://news.youdao.com/search","ue:utf-8;keyfrom:360dh_01"]},"map":{google:["http://ditu.google.cn/maps","q","\u8c37\u6b4c","http://ditu.google.cn/","ie:utf-8"],so360:["http://map.so.com/","k","360地图","http://map.so.com/","ie:utf-8;src:hao_360so;t:map","360地图"],baidu:["http://map.baidu.com/m","word","\u767e\u5ea6","http://map.baidu.com/","ie:utf-8"],gaode:["http://www.amap.com","k","高德","http://www.amap.com","t:map"]},"wenda":{qihoo:["http://wenda.so.com/search/","q","360问答","http://wenda.so.com/","ie:utf-8;src:hao_360so","搜索答案"],baidu:["http://zhidao.baidu.com/q","word","\u767e\u5ea6","http://zhidao.baidu.com","ct:17;pt:360se_ik;tn:ikaslist;ie:utf-8"]},"shopping":{taobao:["http://search8.taobao.com/browse/search_auction.htm","q","\u6dd8\u5b9d","http://www.taobao.com/?pid=mm_15144495_2216478_8873469","unid:24;pid:mm_15144495_2216478_8873469;search_type:auction;commend:all;at_topsearch:1;user_action:initiative;spercent:0;f:D9_5_1;ie:utf-8"],amazon:["http://www.amazon.cn/s","field-keywords","\u4E9A\u9A6C\u900A","http://www.amazon.cn/","ie:utf-8;tag:360daohangss-23"],buy360:['http://search.360buy.com/Search','keyword',"京东","http://www.360buy.com","enc:utf-8;union_Id:91"],vancl:["http://s.vancl.com/search","k","\u51E1\u5BA2","http://www.vancl.com/?source=3602011sygwss","source:3602011sygwss"]}}}};</script>
+		<script>
+		(function(){
+			var dailyHotword = [["http:\/\/shouji.360.cn\/pop\/jubao\/index.html?source=500005","\u9632\u5783\u573e\u77ed\u4fe1\uff0c\u8fc7\u6e05\u9759\u5e74"]];
+			if(dailyHotword){
+				var data = dailyHotword[Math.floor(Math.random() * dailyHotword.length)];
+				document.getElementById('daily-hotword').innerHTML = '<a href="'+data[0]+'" target="_blank">'+data[1]+'</a>';
+			}
+		})();
+		</script>
+		<script type="text/javascript">
+		(function(){
+			var config = HAO_CONFIG.search,
+				searchData = new AppData('api.hao.360.cn', config.r),
+				defaultEng = searchData.get('defaultEng'),
+				g = hao360.g;			
+			if(defaultEng != 'somulti'){
+				var defaultEngData = HAO_DATA.searchTabData.searchEngConf.webpage[defaultEng];
+				if(defaultEngData){	
+					g('eng-logo').className = defaultEng;				
+					g('search-btn').innerHTML = defaultEngData[5] || defaultEngData[2] + '搜索';
+					g('search-kw').setAttribute('name', defaultEngData[1]);
+					g('search-form').setAttribute('action', defaultEngData[0]);
 
-<p>This automatic page generator is the easiest way to create beautiful pages for all of your projects. Author your page content here using GitHub Flavored Markdown, select a template crafted by a designer, and publish. After your page is generated, you can check out the new branch:</p>
+					var defaultParamsEl = g('search-form').getElementsByTagName('div')[0],
+						paramsEl = document.createElement('div'),
+						paramsData = defaultEngData[4].split(';'),
+						paramsHtml = '';
+					paramsEl.className = 'others-params webpage-' + defaultEng + ' types-webpage';
+					while(paramsData.length){
+						var p = paramsData[0].split(':');
+						paramsHtml += '<input type="hidden" name="' + p[0] + '" value="' + p[1] + '">';
+						paramsData.shift();
+					}
+					paramsEl.innerHTML = paramsHtml;
+					g('search-form').insertBefore(paramsEl, defaultParamsEl);
+					g('search-form').removeChild(defaultParamsEl);
+				}
+			}			
+		})();
+		</script>
+		<div id="widget-flytrip" class="widget-group"></div>
+		<div id="widget-car" class="widget-group"></div>
+	</div>
+	<div class="search-ft">	
+		<div id="search-hotword-tips">
+			<div class="tips-text">下次点这儿查看吧！</div>
+		</div>	
+	</div>
+	<div class="search-bg"></div>
+</div>		</div>
+		<div id="bd">
+            <div id="hot-site" class="gmodule g-box">
+	<div class="hot-site-hd g-box-hd">
+		<h2 class="title">名站导航</h2>
+	</div>
+	<div class="hot-site-bd g-box-bd">
+		<ul class="list famous-list gclearfix">
+			<li><a href="http://www.baidu.com">百度</a><span class="split">•</span><a href="http://tieba.baidu.com/">贴吧</a></li>
+			<li><a href="http://www.sina.com.cn">新浪</a><span class="split">•</span><a href="http://weibo.com/?c=spr_web_360_hao360_weibo_t001">微博</a></li>
+			<li><a href="http://www.sohu.com">搜狐</a><span class="split">•</span><a href="http://tv.sohu.com/?pvid=44bbebd64100dcb3">视频</a></li>
+			<li><a href="http://www.163.com">网易</a><span class="split">•</span><a href="http://email.163.com">邮箱</a></li>
+			<li><a href="http://www.ifeng.com/">凤凰</a><span class="split">•</span><a href="http://news.ifeng.com/mil/">军事</a></li>
+ 			<li><a href="http://www.qq.com">腾讯</a><span class="split">•</span><a href="http://qzone.qq.com/">空间</a></li>
+           	<li><a class="green" href="http://wan.360.cn/?src=DH-mz-top01">360游戏</a></li>
+           	<li><a href="http://www.renren.com">人 人 网</a></li>
+          	<li><a href="http://www.taobao.com/">淘 宝 网</a></li>
+          	<li  class="site-group">
+          	<a href="http://s.mall.360.cn/?fname=hao_famous1_small&eee=hao_famous1_small">正品商城</a>
+	          	<div class="g-toggle"></div>
+				<div class="group-list">
+					<div class="inner">
+						<a href="http://mall.360.cn/?fname=hao_famous1_1130_mall&eee=hao_famous1_1130_mall">排行榜</a>
+						<a href="http://youhui.360.cn/quan?fname=hao_famous_quan&eee=hao_famous_quan">优惠券</a>
+						<a href="http://chujian.360.cn/?fname=hao_famous1_1130_chujian&eee=hao_famous1_1130_chujian">淘宝贝</a>
+						<a href="http://tuan.360.cn/?fname=hao_famous_tuan&eee=hao_famous_tuan&fsign=7abdcee00e">团　购</a>
+						<a href="http://tejia.youhui.360.cn/?fname=hao_famous1_1130_zhidemai&eee=hao_famous1_1130_zhidemai">特价品</a>						
+						<a href="http://s.mall.360.cn/?fname=hao_famous1_1130_small&eee=hao_famous1_1130_small">更多&gt;&gt;</a>
+					</div>
+				</div>
+          	</li>
+           	<li><a href="http://www.360.cn/">360</a><span class="split">•</span><a href="http://shouji.360.cn/index.html?source=500001" class="orange">手机卫士</a></li>
+           	<li><a href="http://www.google.com.hk/webhp?client=aff-360daohang">谷　歌</a></li>
+           	<li class="site-group">
+				<a class="site" href="http://pindao.huoban.taobao.com/tms/channel/onsale.htm?pid=mm_15144495_2216478_8873461&amp;eventid=&amp;unid=6">淘宝特卖</a>
+				<div class="g-toggle"></div>
+				<div class="group-list">
+					<div class="inner">
+						<a href="http://www.taobao.com/go/chn/tbk_channel/lady.php?pid=mm_15144495_2216478_11109353&eventid=101345">女 装</a>
+						<a href="http://www.taobao.com/go/chn/tbk_channel/man.php?pid=mm_15144495_2216478_11109333&eventid=101330">男 装</a>
+						<a href="http://www.taobao.com/go/chn/tbk_channel/jewelry.php?pid=mm_15144495_2216478_11275378&eventid=101331">鞋 包</a>
+						<a href="http://www.tmall.com/go/chn/tbk_channel/tmall_new.php?pid=mm_15144495_2216478_11109359&eventid=101334">天 猫</a>
+						<a href="http://tao.mall.360.cn/?eee=tiyan">皇冠店</a>
+					</div>
+				</div>
+			</li>
+			<li class="site-group">
+				<a href="http://v.360.cn/" class="favicon" style="background-image:url(http://p1.qhimg.com/t018ed272907ee30aac.png);">影视大全</a>
+				<div class="g-toggle"></div>
+				<div class="group-list">
+					<div class="inner">
+						<a href="http://www.youku.com/">优　酷</a>
+						<a href="http://www.tudou.com/?union_id=100360_100002_01_01">土　豆</a>
+						<a href="http://tv.sohu.com/?pvid=44bbebd64100dcb3">搜　狐</a>
+						<a href="http://www.letv.com/">乐　视</a><a href="http://www.xunlei.com/?id=731002">迅　雷</a>
+						<a href="http://v.360.cn/">更多&gt;&gt;</a>
+					</div>
+				</div>
+			</li>
+            <li><a href="http://www.tudou.com/?TPA=dW5pb25faWQ9MTAwMzYwXzEwMDAwM18wMV8wMQ">土 豆 网</a></li>
+            <li><a href="http://cp.360.cn/?a=2504">360彩票</a></li>
+            <li><a href="http://www.eastmoney.com/">东方财富</a></li>
+            <li><a href="http://click.union.360buy.com/JdClick/?unionId=34&siteid=360_mz&to=http://www.360buy.com/" class="favicon" style="background-image:url(http://p1.qhimg.com/t011a627a30a733c9a2.png);">京东商城</a></li>
+            <li><a href="http://www.people.com.cn/">人民</a><span class="split">•</span><a href="http://www.xinhuanet.com/">新华</a></li>
+            <li><a href="http://www.cntv.cn/index.shtml">CNTV</a></li>
+            <li><a href="http://www.pconline.com.cn/?ad=6347&360hot_site">太平洋电脑</a></li>
+            <li><a href="http://www.jiayuan.com/st/?id=3932&amp;url=http://www.jiayuan.com">世纪佳缘</a></li>
+             <li><a href="http://u.ctrip.com/union/CtripRedirect.aspx?TypeID=2&Allianceid=1328&sid=1643&OUID=&jumpUrl=http://www.ctrip.com">携程旅行网</a></li>
+            <li><a href="http://www.zol.com.cn/">中关村在线</a></li>
+		</ul>
+		<ul class="list comm-list">
+            <li><a href="http://www.autohome.com.cn/?pvareaid=100519">汽车之家</a></li>
+            <li><a href="http://www.bitauto.com/?WT.mc_id=360mz">易 车 网</a></li>
+            <li><a href="http://www.pcauto.com.cn/?ad=3958">太平洋汽车</a></li>
+            <li><a href="http://www.zhenai.com/901438.html">珍爱婚恋网</a></li>
+            <li><a href="http://track.lefeng.com/track.jsp?aid=20474&url=http://www.lefeng.com/?utm_source=hao360&utm_medium=cpm&utm_campaign=222">乐蜂网化妆品</a></li>
+            <li><a class="green" href="http://union.suning.com/aas/open/vistorAd.action?webSiteId=0&adInfoId=5763&adBookId=5420&userId=7466&vistURL=http://www.suning.com/&utm_source=hao360&utm_medium=mingzhan&utm_campaign=56">苏宁易购</a></li>
+            <li><a href="http://www.nuomi.com/?utm_source=360&utm_medium=mz&utm_campaign=daohang&cid=000304">糯米网团购</a></li>
+            <li><a href="http://www.58.com/?path=?utm_source%3dhao360%26utm_campaign%3dhao360-101&360hot_site">58 同 城</a></li>
+            <li><a href="http://www.ganji.com/?ca_name=hao360_hao360_011_quanguoshouye">赶 集 网</a></li>
+            <li><a href="http://union.dangdang.com/adlink_transfer.php?fromweb=536-534-hao360ming&backurl=http://click.r.dangdang.com/_utm_ad_id/30269/http%3A%2F%2Fwww.dangdang.com%2F">当当网商城</a></li>
+            <li><a href="http://www.rayli.com.cn/?utm_source=360top&utm_medium=paid">瑞丽女性网</a></li>
+            <li><a href="http://www.yihaodian.com/?tracker_u=1624169">1号店超市</a></li>
+            <li><a href="http://www.vancl.com/?source=3602010mzdh">凡客诚品</a></li>
+            <li><a href="http://an.moonbasa.com/transfer.aspx?cn=17768&type=0&adsiteid=10000007&url=http://www.moonbasa.com">梦芭莎女装</a></li>
+            <li><a href="http://www.amazon.cn/?tag=360daohang-23">卓越亚马逊</a></li>
+            <li><a href="http://www.elong.com/?banid=360ming">艺龙酒店预订</a></li>
+            <li><a href="http://www.qunar.com?ex_track=auto_4e23ad93">去哪儿网</a></li>
+            <li><a href="http://cnt.zhaopin.com/Market/whole_counter.jsp?sid=121111369&amp;site=qihoo&amp;url=http://www.zhaopin.com">智联招聘</a></li>
+            <li><a href="http://www.meituan.com/?utm_campaign=hao.360.cn&utm_medium=nav&utm_source=hao.360.cn&utm_content=top">美团网团购</a></li>
+            <li><a href="http://cps.gome.com.cn/home/sc?feedback=360&to=http://www.gome.com.cn/ec/homeus/?cmpid=bd_360_mz">国美在线</a></li>
+            <li><a href="http://www.vipshop.com/g_url.php?g_id=32368">唯 品 会</a></li>
+            <li><a class="orange" href="http://www.jumei.com?referer=360_mz&utm_medium=nav&utm_source=360&utm_content=mz">聚美优品</a></li>
+            <li><a href="http://a814.oadz.com/link/C/814/89513/0uvAwj6KyQ75BsMtb7FDbjoFIec_/p03a/28/http://www.m18.com/market/front.aspx?pno=ap-hao360-mz&url=">麦考林购物</a></li>
+            <li><a href="http://www.meilishuo.com/welcome?frm=360_mingzhan" class="favicon" style="background-image:url(http://p1.qhimg.com/t01b2c107e331828c5f.png);">美 丽 说</a></li>
+		</ul>
+	</div>
+	<div class="hot-site-ft">
+		<div id="hot-site-iguess" data-rstatus="1">
+			<div class="loading" id="iguess-loading"><img src="http://p1.qhimg.com/d/_hao360/iguess/loading.gif">正在努力发现....</div>
+		</div>
+		<script type="text/template" id="iguess-template">
+			<div class="iguess{first}" data-sortid="{data1[0]}" data-skey="{data1[2][1]}" data-group-order="{i1}">
+				<div class="tab gclearfix">
+					<a href="{data1[2][4]}" class="on" data-sortid="{data1[0]}"  data-group-order="{i1}">{title1}</a>
+					<span class="split">|</span>
+					<a href="{data2[2][4]}" data-sortid="{data2[0]}"  data-group-order="{i2}">{title2}</a>
+					<span title="换一组" class="refresh" onselectstart="return false;">换一组</span>
+				</div>
+				<div class="cont gclearfix">
+					<ul class="list" data-sortid="{data1[0]}">
+						<li><a href="{data1[1][0][2]}" title="{data1[1][0][3]}" siteid="{data1[1][0][0]}" res="{data1[1][0][4]}" asin="{data1[1][0][5]}">{data1[1][0][1]}</a></li>
+						<li><a href="{data1[1][1][2]}" title="{data1[1][1][3]}" siteid="{data1[1][1][0]}" res="{data1[1][1][4]}" asin="{data1[1][1][5]}">{data1[1][1][1]}</a></li>
+						<li><a href="{data1[1][2][2]}" title="{data1[1][2][3]}" siteid="{data1[1][2][0]}" res="{data1[1][2][4]}" asin="{data1[1][2][5]}">{data1[1][2][1]}</a></li>
+						<li><a href="{data1[1][3][2]}" title="{data1[1][3][3]}" siteid="{data1[1][3][0]}" res="{data1[1][3][4]}" asin="{data1[1][3][5]}">{data1[1][3][1]}</a></li>
+					</ul>
+					<ul class="list" style="display:none;" data-sortid="{data2[0]}">
+						<li><a href="{data2[1][0][2]}" title="{data2[1][0][3]}" siteid="{data2[1][0][0]}" res="{data2[1][0][4]}" asin="{data2[1][0][5]}">{data2[1][0][1]}</a></li>
+						<li><a href="{data2[1][1][2]}" title="{data2[1][1][3]}" siteid="{data2[1][1][0]}" res="{data2[1][1][4]}" asin="{data2[1][1][5]}">{data2[1][1][1]}</a></li>
+						<li><a href="{data2[1][2][2]}" title="{data2[1][2][3]}" siteid="{data2[1][2][0]}" res="{data2[1][2][4]}" asin="{data2[1][2][5]}">{data2[1][2][1]}</a></li>
+						<li><a href="{data2[1][3][2]}" title="{data2[1][3][3]}" siteid="{data2[1][3][0]}" res="{data2[1][3][4]}" asin="{data2[1][3][5]}">{data2[1][3][1]}</a></li>
+					</ul>
+				</div>
+			</div>
+		</script>
+		<script type="text/javascript">
+			(function(){setTimeout(function(){hao360.g("hot-site-iguess").getAttribute("data-rstatus")<3&&(hao360.g("iguess-loading").style.display="block")},1e3);var e=hao360.mid,t=HAO_CONFIG.iguessConfig;R("hot-site-iguess").render(function(e){function o(e){return parseInt(s[e])||0}var n="",r=document.getElementById("iguess-template").innerHTML,i=new AppData("api.hao.360.cn",t.r),s=(i.get("iguessOrder")||"").split("|")||[];for(var u=0,a=Math.ceil(e.length/2);u<a;u++){var f=e[u][1].slice(o(e[u][0]),o(e[u][0])+4);if(!e[u+3])var l=[];else var c=e[u+3][1].slice(o(e[u+3][0]),o(e[u+3][0])+4);n+=this.tmpl(r,{data1:[e[u][0],f,e[u][2]],data2:l||[e[u+3][0],c,e[u+3][2]],first:u===0?" first":"",i1:u,i2:u+3,title1:e[u][2][3],title2:l?"":e[u+3][2][3]})}document.getElementById("hot-site-iguess").innerHTML=n},t)})()
+		</script>	
+	</div>
+	<div id="mynav">
+		<div class="mynav-icon" title="我的导航"></div>
+		<a href="" class="btn-close">关闭</a>
+		<div class="mynav-iframe">
+			<iframe frameborder="0" scrolling="no" allowtransparency="true"></iframe>
+		</div>
+	</div>
+	</div>            <div id="activity" class="gmodule g-box">
+	<div id="bainian" class="activity-bd">
+		<ul class="g-list">
+			<li class="g-pic"><a href="http://hao.360.cn/hd/2013bainian.html"><img src="http://p0.qhimg.com/t0106a0acd414b5eca9.png" title="阿娇给360网友拜年了" /></a></li>
+			<li class="act-topic"><a href="http://hao.360.cn/hd/2013bainian.html"><img src="http://p0.qhimg.com/t01ce23875801ecfd6f.png" title="明星陪你过大年" /></a></li>
+			<li class="headline"><span class="split">•</span><a href="http://hao.360.cn/hd/2013bainian.html">今日拜年明星钟欣桐</a></li>
+			<li class="chunyun-train"><span class="split">•</span><a href="http://tuan.360.cn/?do=themescene&themesceneid=243&from=theme243&fname=hao_sbkk_0205_tuanp_nianyefan&eee=hao_sbkk_0205_tuanp_nianyefan&fsign=d214091922">团年夜饭</a></li>
+			<li class="chunyun-fly"><span class="split">•</span><a href="http://hao.360.cn/chunyun2013.html">抢返程票</a></li>
+		</ul>
+	</div>
+</div>            <div id="channel" class="gmodule g-box">
+	<div class="channel-bd">
+		<div id="channel-bar">
+			<ul>
+				<li class="yl"><a href="http://sh.qihoo.com/">新闻</a><span class="split">•</span><a href="http://v.360.cn/yule/index.html">娱乐</a></li>
+                <li class="dy"><a href="http://v.360.cn/dianying/index.html">电影</a><span class="split">•</span><a href="http://v.360.cn/dianshi/index.html">电视剧</a></li>				
+				<li class="tg"><a href="http://tuan.360.cn/?fname=hao_left_tuan&eee=hao_left_tuan&fsign=665a9ada88">今日团购</a></li>
+				<li class="cp"><a href="http://cp.360.cn/hall/hall.html?a=dh1">彩票</a><span class="split">•</span><a href="http://cp.360.cn/ssq/?a=dhty">双色球</a></li>
+				<li class="gw"><a href="http://mall.360.cn/?fname=hao_left1_1130_mall&eee=hao_left1_1130_mall">网上购物</a></li>
+				<li class="yy"><a href="http://music.so.com">音乐</a><span class="split">•</span><a href="http://xiaoshuo.360.cn/">小说</a></li>
+				<li class="yx"><a href="http://g.360.cn/">游戏</a><span class="split">•</span><a href="http://qipai.360.cn/?src=DH-left-all">棋牌</a></li>
+				<li class="ty"><a href="http://hao.360.cn/xingzuo.html">星座</a><span class="split">•</span><a href="http://hao.360.cn/youmoxiaohua.html">搞笑</a></li>
+				<li class="cx"><a href="http://tools.360.cn/">查询</a><span class="split">•</span><a href="http://edu.360.cn/yingyu?tn=aside">英语</a></li>
+				<li class="ly"><a href="http://go.360.cn/flight">机票</a><span class="split">•</span><a href="http://go.360.cn/train/">火车票</a></li>
+			</ul>
+		</div>
+		<script type="text/javascript">(function(){var tmpl=R('doc').tmpl;var ViewBuilder={buildPic:function(data,innerWrap,mask){mask=mask===undefined?true:mask;data.mask=mask?'<span class="mask"></span>':'';var text=data['text'];data['text']=text?'<em>'+text+'</em><span></span>':'';if(innerWrap){data.innerWrapBegin='<'+innerWrap+'>';data.innerWrapEnd='</'+innerWrap+'>';}else{data.innerWrapBegin='';data.innerWrapEnd='';}return tmpl('<li class="g-pic">{innerWrapBegin}<a href="{link}"><img src="{pic}">{text}{mask}</a>{innerWrapEnd}</li>',data);},buildA:function(data){var tag=data['tag']||'',highlight=data['highlight']||'';data['classValue']=[tag,highlight].join(' ');return tmpl('<a href="{link}" class="{classValue}">{text}</a>',data);},buildLink:function(data,wrapTag,dot){var htmlA=ViewBuilder.buildA(data);dot=dot===undefined?true:dot;dot=dot?'<ins class="dot">•</ins>':'';if(!wrapTag){var tagBegin='',tagEnd=''}else{if(typeof(wrapTag)=='string'){wrapTag={tag:wrapTag}}var tagBegin=[];tagBegin.push(wrapTag.tag);for(var attr in wrapTag){if(attr!='tag'){tagBegin.push([attr,'"'+wrapTag[attr]+'"'].join('='));}}var tagBegin='<'+tagBegin.join(' ')+'>',tagEnd='</'+wrapTag.tag+'>';}var linkData={dot:dot,tagBegin:tagBegin,tagEnd:tagEnd};return tmpl('{tagBegin}{dot}'+htmlA+'{tagEnd}',linkData);}};window.ViewBuilder=ViewBuilder;})();</script>
+<div id="top-channel" class="section" data-updatetime="1360130681000">
+	<script type="text/javascript">(function(){var channelTopSdkUpdatedTime=parseInt(hao360.g('top-channel').getAttribute('data-updatetime')),channelTopConfig=HAO_CONFIG.feedsConfig.channeltop,channelTopAppData=new AppData('api.hao.360.cn',channelTopConfig.r),channelTopData=channelTopAppData.get(channelTopConfig.api);if(channelTopAppData.getUpdatedTime(channelTopConfig.api)<channelTopSdkUpdatedTime){channelTopData=undefined;}var style='<style type="text/css">';if(channelTopData){style+='#top-channel .channel-data-default {display:none}';}style+='</style>';var buildChannelTop=function(data){var itemsData=data['items'],html=[];html.push(ViewBuilder.buildPic({link:data.coverurl,pic:data.coverimg,text:data.covertxt}));for(var j=0,k=4;j<k;j++){var item=itemsData[j];html.push(ViewBuilder.buildLink(item,'li'));}return html.join('');};hao360.showChannelTop=function(channelData,start){var html=[],start=start||0,data=channelData||(channelTopData?[channelTopData]:[]);for(var i=start,l=data.length;i<l;i++){var itemsData=data[i];html.push('<ul class="tabview-cont g-list '+(i?'':'on')+'">');html.push(buildChannelTop(itemsData));html.push('</ul>');};return html.join('');};hao360.docWrite(style);})();</script>
+	<div id="channel-news">		
+		<div class="section-hd">
+			<ul class="g-tab gclearfix tabview-tabs"><li class="on"><a href="http://sh.qihoo.com/?src=hao360">头条</a></li><li><a href="http://hao.360.cn/yulebagua.html">八卦</a></li><li><a href="http://sh.qihoo.com/zt/special.html?src=hao360">杂谈</a></li><li><a href="http://hao.360.cn/junshiguofang.html">军事</a></li></ul></ul>		</div>
+		<div class="section-bd tabview-wrap">
+			<ul class="g-list channel-data-default"><li class="g-pic"><a href="http://news.ifeng.com/photo/hdsociety/detail_2013_02/06/22008438_0.shtml"><img src="http://p0.qhimg.com/t011bb31658e6d0e2b7.jpg"><em>救落水儿童溺亡女大学生火化安葬</em><span></span><span class="mask"></span></a></li><li ><ins class="dot">•</ins><a href="http://news.sina.com.cn/w/2013-02-06/100226220174.shtml?pvid=15139ca233022f50" class=" ">所罗门群岛8级地震引发海啸</a></li><li ><ins class="dot">•</ins><a href="http://ent.163.com/13/0205/11/8MUSB1F200031H2L.html" class=" ">作曲家批龚琳娜新作低下恶劣</a></li><li ><ins class="dot">•</ins><a href="http://news.sina.com.cn/s/2013-02-06/070826217753.shtml?from=360news" class="pic ">初中老师给女生写露骨情书</a></li><li ><ins class="dot">•</ins><a href="http://v.youku.com/v_show/id_XNTA5OTM4NzUy.html" class="video orange">周鸿祎天天向上自曝手机号</a></li></ul>			<script type="text/javascript">
+				hao360.docWrite(hao360.showChannelTop());
+			</script>
+		</div>
+	</div>
+</div><style type="text/css">#user-channel #channel-video {top: 0px;}#user-channel #channel-mall {top: 185px;}#user-channel #channel-game {top: 370px;}#user-channel #channel-caipiao {top: 555px;}#user-channel #channel-tuan {top: 740px;}#user-channel #channel-novel {top: 925px;}</style>
+<div id="user-channel" data-channelHeight="185" data-updatetime="1360118462000" data-defaultOrder="video,mall,game,caipiao,tuan,novel">
+	<script type="text/javascript">(function(){var channelConfig=HAO_CONFIG.feedsConfig.channeldata,channelOrderConfig=HAO_CONFIG.channelOrder,height=0,sdkUpdatedTime=parseInt(hao360.g('user-channel').getAttribute('data-updatetime')),channelHeight=parseInt(hao360.g('user-channel').getAttribute('data-channelHeight'));var channelOrderAppData=new AppData('api.hao.360.cn',channelOrderConfig.r),channelOrderDefault=hao360.g('user-channel').getAttribute('data-defaultOrder').split(','),channelOrder=channelOrderAppData.get(channelOrderConfig.api,true)||channelOrderDefault,channelAppData=new AppData('api.hao.360.cn',channelConfig.r),channelData=channelAppData.get(channelConfig.api);if(channelData&&channelAppData.getUpdatedTime(channelConfig.api)<sdkUpdatedTime){channelData=undefined;}var order2Use=channelOrder.slice(0,4),orderNotUse=channelOrder.slice(4);if(channelData){order2Use=[];orderNotUse=[];for(var i=0,l=channelOrder.length;i<l;i++){var c=channelOrder[i];if(channelData[c]){order2Use.push(c);}else{orderNotUse.push(c);}}}var style='<style type="text/css">';for(var i=0,l=order2Use.length;i<l;i++){var channel=order2Use[i];style+='#user-channel #channel-'+channel+' {top: '+height+'px;}';height+=channelHeight;}for(var j=0,k=orderNotUse.length;j<k;j++){var channel=orderNotUse[j];style+='#user-channel #channel-'+channel+' {top: -999em}';}if(channelData){style+='#user-channel .channel-data-default {display:none}';}style+='</style>';var buildPic=ViewBuilder.buildPic,buildLink=ViewBuilder.buildLink,buildA=ViewBuilder.buildA;var itemsHtml={news:function(data){var itemsData=data['items'],html=[];html.push(buildPic({link:data.coverurl,pic:data.coverimg,text:data.covertxt}));for(var j=0,k=3;j<k;j++){var item=itemsData[j];html.push(buildLink(item,'li'));}for(var j2=3,k2=5;j2<k2;j2++){var item=itemsData[j2];html.push(buildLink(item,{tag:'li','class':'headline'}));}return html.join('');},video:function(data){var html=[],coversData=data['cover'],itemsData=data['items'];for(var j=0,k=coversData.length;j<k;j++){var item=coversData[j];html.push(buildPic(item));}for(var j2=0,k2=itemsData.length;j2<k2;j2++){var item=itemsData[j2];html.push(buildLink(item,'li',false));}return html.join('');},mall:function(data){var html=[],items=data.items;for(var j=0,k=items.length;j<k;j++){var item=items[j];html.push(buildPic(item,'div'));}return html.join('');},game:function(data){var html=[],coversData=data['cover'],groupsData=data['items'];for(var j=0,k=coversData.length;j<k;j++){var item=coversData[j];html.push(buildPic(item));}for(var j2=0,k2=groupsData.length;j2<k2;j2++){var item=groupsData[j2];html.push(buildLink(item,'li'));}return html.join('');},caipiao:function(data){var html=[],cover=data['cover'][0],itemsData=data['items'],zoushitu=itemsData[0];shishishouqi=itemsData[1];html.push(buildPic(cover,'',false));html.push('<li class="info"><em>'+data['stage']+'</em>');html.push(buildA(zoushitu));html.push('|');html.push(buildA(shishishouqi));for(var j=2,k=itemsData.length;j<k;j+=2){var item1=itemsData[j],item2=itemsData[j+1];html.push('<li><ins class="dot">•</ins>');html.push(buildA(item1));html.push('|');html.push(buildA(item2));html.push('</li>');}return html.join('');},tuan:function(data){var html=[],coversData=data['cover'],groupsData=data['items'];for(var j=0,k=coversData.length;j<k;j++){var item=coversData[j];html.push(buildPic(item));}for(var j2=0,k2=groupsData.length;j2<k2;j2++){var item=groupsData[j2];html.push(buildLink(item,'li'));}return html.join('');},novel:function(data){var itemsData=data['items'],html=[],htmlHeadline=[];html.push(buildPic({link:data.coverurl,pic:data.coverimg,text:data.covertxt}));for(var j=0,k=3;j<k;j++){var item=itemsData[j];html.push(buildLink(item,'li'));}html.push('<li class="headline">');var start=3;while(start<8){htmlHeadline.push('<div>');for(var i=start,max=i+3;i<max;i++){var item=itemsData[i];htmlHeadline.push(buildA(item));};htmlHeadline.push('</div>');start+=3;}html.push(htmlHeadline.join(''));html.push('</li>');return html.join('');}};hao360.showChannel=function(channel,channelData,start){var html=[],start=start||0,channelData=channelData||channelAppData.get(channelConfig.api),data=channelData?(channelData[channel]||[]):[];for(var i=start,l=data.length;i<l;i++){var itemsData=data[i];html.push('<ul class="tabview-cont g-list '+(i?'':'on')+'">');html.push(itemsHtml[channel](itemsData));html.push('</ul>');};return html.join('');};hao360.docWrite(style);hao360.channelOrder=order2Use;})();</script>
+		<div id="channel-video" class="section">
+			<div class="section-hd">
+				<ul class="g-tab gclearfix tabview-tabs"><li class="on"><a href="http://v.360.cn/index.html ">热播</a></li><li><a href="http://v.360.cn/dianshi/index.php ">电视剧</a></li><li><a href="http://v.360.cn/dianying/index.html ">电影</a></li><li><a href="http://v.360.cn/yule/index.html ">花边</a></li></ul></ul>			</div>
+			<div class="section-bd tabview-wrap">
+				<ul class="g-list channel-data-default"><li class="g-pic"><a href="http://v.360.cn/tv/QLdrb3KoTzHmNX.html"><img src="http://p0.qhimg.com/t0146eb691bfc073fbb.jpg"><em>倾城绝恋</em><span></span><span class="mask"></span></a></li><li class="g-pic"><a href="http://map.m.360.cn/t/VGb"><img src="http://p1.qhimg.com/t01bb811ca40a1d8c65.jpg"><em>湖南春晚回顾</em><span></span><span class="mask"></span></a></li><li ><a href="http://v.360.cn/tv/Pblrc37oTzDuOH.html" class=" ">千金女佣</a></li><li ><a href="http://v.360.cn/tv/PrRobqOoTz4uOH.html" class=" ">终极一班2</a></li><li ><a href="http://v.360.cn/special/byezbs.html#t1" class=" ">本山经典小品</a></li><li ><a href="http://v.360.cn/topic/jdyp.html" class=" ">经典必看影片</a></li><li ><a href="http://v.360.cn/topic/hbdy.html" class=" orange">经典警匪电影</a></li><li ><a href="http://map.m.360.cn/t/PGb" class=" ">屌丝男周鸿祎</a></li></ul>				<script type="text/javascript">
+					hao360.docWrite(hao360.showChannel('video'));
+				</script>
+			</div>
+		</div>
+			<div id="channel-mall" class="section">
+			<div class="section-hd">
+				<ul class="g-tab gclearfix tabview-tabs"><li class="on"><a href="http://s.mall.360.cn/?fname=hao_cross110_0128_s_tag&eee=hao_cross110_0128_s_tag">热卖</a></li><li><a href="http://s.mall.360.cn/search.html?tag=15&fname=hao_cross120_0128_s_tag&eee=hao_cross120_0128_s_tag#filter">鞋靴</a></li><li><a href="http://chujian.360.cn/?fname=hao_cross130_0110_c_tag&eee=hao_cross130_0110_c_tag">女装</a></li><li><a href="http://s.mall.360.cn/search.html?&query=%E6%95%B0%E7%A0%81&fname=hao_cross140_0110_s_tag&eee=hao_cross140_0110_s_tag#filter">3C数码</a></li></ul></ul>			</div>
+			<div class="section-bd tabview-wrap">
+				<ul class="g-list channel-data-default"><li class="g-pic"><div ><a href="http://s.mall.360.cn/hzp/index.html?&fname=hao_cross110_0204_s_meizhuang&eee=hao_cross110_0204_s_meizhuang"><img src="http://p0.qhimg.com/t01da299213d5643a57.jpg"><span class="mask"></span></a></div></li><li class="g-pic"><div ><a href="http://s.mall.360.cn/search.html?query=%E7%A7%BB%E5%8A%A8%E7%94%B5%E6%BA%90&fname=hao_cross110_0205_s_yidongdianyuan&eee=hao_cross110_0205_s_yidongdianyuan#filter"><img src="http://p1.qhimg.com/t018ceb1010268f10f6.png"><span class="mask"></span></a></div></li><li class="g-pic"><div ><a href="http://s.mall.360.cn/search.html?tag=48&query=%E4%B8%89%E6%98%9F&brand=&bid=0&label=&fname=hao_cross110_0128_s_sanxing&eee=hao_cross110_0128_s_sanxing#filter"><img src="http://p0.qhimg.com/t018c74b1b25040962c.png"><span class="mask"></span></a></div></li><li class="g-pic"><div ><a href="http://tao.mall.360.cn/?eee=cross1_huangguandian"><img src="http://p1.qhimg.com/t011fe034cce3351120.jpg"><span class="mask"></span></a></div></li></ul>				<script type="text/javascript">
+					hao360.docWrite(hao360.showChannel('mall'));
+				</script>
+			</div>
+		</div>
+			<div id="channel-game" class="section">
+			<div class="section-hd">
+				<ul class="g-tab gclearfix tabview-tabs"><li class="on"><a href="http://g.360.cn?Src=dhtag1">游戏</a></li><li><a href="http://soyo.360.cn/zt/hanjia.html?Src=dhtag2">最火爆</a></li><li><a href="http://soyo.360.cn/zt/xiuxian.html?Src=dhtag3">休闲</a></li><li><a href="http://soyo.360.cn/zt/xyxzh.html?src=dhtag4">小游戏</a></li></ul></ul>			</div>
+			<div class="section-bd tabview-wrap">
+				<ul class="g-list channel-data-default"><li class="g-pic"><a href="http://soyo.360.cn/zt/hanjia.html?Src=dhtp1"><img src="http://p0.qhimg.com/t01c569e85c8ed66fc4.jpg"><em>快刀切水果</em><span></span><span class="mask"></span></a></li><li class="g-pic"><a href="http://soyo.360.cn/zt/xyxzh.html?src=dhtp1"><img src="http://p1.qhimg.com/t01ffebfdd6186f705b.jpg"><em>会说话的汤姆猫</em><span></span><span class="mask"></span></a></li><li ><ins class="dot">•</ins><a href="http://g.360.cn/xyx/index.html?Src=dhwzl1" class=" ">小游戏</a></li><li ><ins class="dot">•</ins><a href="http://soyo.360.cn/zt/xyxzh.html#nvsheng" class=" ">最适合女生玩</a></li><li ><ins class="dot">•</ins><a href="http://soyo.360.cn/zt/shengdan.html?src=dhwzl1" class=" ">男人必玩游戏</a></li><li ><ins class="dot">•</ins><a href="http://rd.wan.360.cn/reg?src=DH-left-sjsg" class=" ">神魔三国乱斗</a></li><li ><ins class="dot">•</ins><a href="http://hx.game.360.cn/zhuanti1/index.html?source=DHYXHX" class=" ">360狐仙</a></li><li ><ins class="dot">•</ins><a href="http://soyo.360.cn/zt/xyxzh.html#remen" class=" ">鸟叔跳江南</a></li></ul>				<script type="text/javascript">
+					hao360.docWrite(hao360.showChannel('game'));
+				</script>
+			</div>
+		</div>
+			<div id="channel-caipiao" class="section">
+			<div class="section-hd">
+				<ul class="g-tab gclearfix tabview-tabs"><li class="on"><a href="http://cp.360.cn/kj/ssq.html?a=dhzkzx1">双色球</a></li><li><a href="http://cp.360.cn/kj/slt.html?a=dhzkzx1">大乐透</a></li><li><a href="http://cp.360.cn/kj/sd.html?a=dhzkzx1">3D</a></li><li><a href="http://cp.360.cn/yun11/?a=dhzkzx1">11选5</a></li></ul></ul>			</div>
+			<div class="section-bd tabview-wrap">
+				<ul class="g-list channel-data-default"><li class="g-pic"><a href="http://cp.360.cn/kj/ssq.html?a=dhzkzx2"><img src="http://p0.qhimg.com/t01c3cf2a92e0622d9e.jpg"></a></li><li class="info"><em >2013016期</em><a href="http://zst.cp.360.cn/chart.html?LotID=51&ChartID=20001&StatType=1&tab=-1&dhzkzx" class=" ">看走势</a><a href="http://cp.360.cn/ssq/?a=dhzkzx" class=" ">试试手气</a></li><li><ins class="dot">•</ins><a href="http://cp.360.cn/kj/ssq.html?a=dhzkzx" class=" ">开奖速递</a>|<a href="http://cp.360.cn/experience/?a=dhzkzx" class=" ">俩小单同期斩13万</a></li><li><ins class="dot">•</ins><a href="http://cp.360.cn/shdd/sha/?LotID=220051&dhzkzx" class=" ">专家推荐</a>|<a href="http://zst.cp.360.cn/chart.html?LotID=51&ChartID=20001&StatType=1&tab=-1dhzkzx" class=" orange">红球两码5期4现身</a></li></ul>				<script type="text/javascript">
+					hao360.docWrite(hao360.showChannel('caipiao'));
+				</script>
+			</div>
+		</div>
+			<div id="channel-tuan" class="section">
+			<div class="section-hd">
+				<ul class="g-tab gclearfix tabview-tabs"><li class="on"><a href="http://tuan.360.cn/?fname=hao_cross110_0129_tuan_tag&eee=hao_cross110_0129_tuan_tag&fsign=7c5e252fda">热卖团</a></li><li><a href="http://tuan.360.cn/?do=category&clazz=401&fname=hao_cross120_0131_tuan_tag&eee=hao_cross120_0131_tuan_tag&fsign=858ee953c0">服装街</a></li><li><a href="http://tuan.360.cn/?do=category&clazz=1&fname=hao_cross130_0131_tuan_tag&eee=hao_cross130_0131_tuan_tag&fsign=f335639b2e">团吃喝</a></li><li><a href="http://tuan.360.cn/?do=category&clazz=2&fname=hao_cross140_0131_tuan_tag&eee=hao_cross140_0131_tuan_tag&fsign=cc29b31704">娱乐团</a></li></ul></ul>			</div>
+			<div class="section-bd tabview-wrap">
+				<ul class="g-list channel-data-default"><li class="g-pic"><a href="http://tuan.360.cn/index.php?kw=%E6%83%85%E4%BA%BA%E8%8A%82&do=search&fname=hao_cross110_0205_tuanp_qingrenjie&eee=hao_cross110_0205_tuanp_qingrenjie&fsign=1e1a73cd24"><img src="http://p0.qhimg.com/t016d4e0e6f06a7e5ab.jpg"><span class="mask"></span></a></li><li class="g-pic"><a href="http://tuan.360.cn/?do=category&clazz=101&fname=hao_cross110_0205_tuanp_zizhu&eee=hao_cross110_0205_tuanp_zizhu&fsign=6ab58582f3"><img src="http://p1.qhimg.com/t01e099c677c9356590.png"><span class="mask"></span></a></li><li ><ins class="dot">•</ins><a href="http://tuan.360.cn/?do=category&clazz=4020207&fname=hao_cross110_0129_tuan_xuedixue&eee=hao_cross110_0129_tuan_xuedixue&fsign=3173c429bb" class=" ">雪地靴138元</a></li><li ><ins class="dot">•</ins><a href="http://tuan.360.cn/?do=movie&fname=hao_cross110_0201_tuan_dianying&eee=hao_cross110_0201_tuan_dianying&fsign=7d982a24ec" class=" ">观影在线选座</a></li><li ><ins class="dot">•</ins><a href="http://tuan.360.cn/?do=category&clazz=40109&fname=hao_cross110_0130_tuan_yurongfu&eee=hao_cross110_0130_tuan_yurongfu&fsign=8f3a1c4aaa" class=" ">羽绒服5折团</a></li><li ><ins class="dot">•</ins><a href="http://tuan.360.cn/?do=category&clazz=302&fname=hao_cross110_0131_tuan_meijia&eee=hao_cross110_0131_tuan_meijia&fsign=5058d6c52f" class=" ">美甲护理套系</a></li><li ><ins class="dot">•</ins><a href="http://tuan.360.cn/?do=category&clazz=40204&fname=hao_cross110_0129_tuan_nvbao&eee=hao_cross110_0129_tuan_nvbao&fsign=b67e57fde7" class=" ">女包名品折扣</a></li><li ><ins class="dot">•</ins><a href="http://tuan.360.cn/?do=category&clazz=112&fname=hao_cross110_0205_tuan_nianyefan&eee=hao_cross110_0205_tuan_nianyefan&fsign=c93d1bc40e" class=" ">年夜饭推荐</a></li></ul>				<script type="text/javascript">
+					hao360.docWrite(hao360.showChannel('tuan'));
+				</script>
+			</div>
+		</div>
+			<div id="channel-novel" class="section">
+			<div class="section-hd">
+				<ul class="g-tab gclearfix tabview-tabs"><li class="on"><a href="http://xiaoshuo.hao.360.cn/list?type=13">言情</a></li><li><a href="http://xiaoshuo.hao.360.cn/list?type=3">玄幻</a></li><li><a href="http://xiaoshuo.hao.360.cn/list?type=7">灵异</a></li><li><a href="http://xiaoshuo.hao.360.cn/list?type=19">同人</a></li></ul></ul>			</div>
+			<div class="section-bd tabview-wrap">
+				<ul class="g-list channel-data-default"><li class="g-pic"><a href="http://xiaoshuo.hao.360.cn/novel/MtPcDRC0MXv8Oj.html"><img src="http://p0.qhimg.com/t0175b8e9bca6b65f95.jpg"><em>公公有喜了</em><span></span><span class="mask"></span></a></li><li ><ins class="dot">•</ins><a href="http://xiaoshuo.hao.360.cn/novel/LAPYDRC0MXz5PD.html" class=" ">前妻，乖乖让我宠</a></li><li ><ins class="dot">•</ins><a href="http://xiaoshuo.hao.360.cn/novel/LtLWDRC0MXW5Qw.html" class=" ">我的毒舌大帅锅</a></li><li ><ins class="dot">•</ins><a href="http://xiaoshuo.hao.360.cn/novel/KtHWDRC0LXvDOj.html" class=" ">倾心计：六宫无妃</a></li><li class="headline"><div ><a href="http://xiaoshuo.hao.360.cn/novel/LdXVDRC0MX3COD.html" class=" ">[皇后不乖]</a><a href="http://xiaoshuo.hao.360.cn/novel/KtTdDRC0NXSCQD.html" class=" ">[重婚福晋]</a><a href="http://xiaoshuo.hao.360.cn/novel/KtXVDRG2LH35Pj.html" class=" ">[绑架]</a></div><div ><a href="http://xiaoshuo.hao.360.cn/novel/MtHUDRC3NXGCPw.html" class=" ">[黑暗时代]</a><a href="http://xiaoshuo.hao.360.cn/novel/LNbVDRCzNXK7Qw.html" class=" ">[异梦情缘]</a><a href="http://xiaoshuo.hao.360.cn/novel/LdHbDRC0NHSCPD.html" class=" ">[夏侯]</a></div></li></ul>				<script type="text/javascript">
+					hao360.docWrite(hao360.showChannel('novel'));
+				</script>
+			</div>
+		</div>
+	</div>		<div id="lifestyle">
+			<div class="lifestyle-hd">
+				<h2 class="title">手机充值</h2>
+				<ul class="tab">
+					<li><a href="http://go.360.cn/flight">机票</a></li>
+					<li class="last"><a href="http://chongzhi.360.cn/game">点卡</a></li>
+				</ul>
+			</div>
+			<div class="lifestyle-bd">
+				<form action="http://chongzhi.360.cn/mobile/cz?a=7088" target="_blank" method="post">
+					<input name="mobile" class="text" placeholder="请输入手机号" maxlength="11"> 
+					<select class="price" name="price">
+						<option value="30">30元</option>
+						<option value="50">50元</option>
+						<option value="100" selected="selected">100元</option>						
+						<option value="300">300元</option>
+						<option value="500">500元</option>
+					</select>
+					<input type="submit" class="btn" value="充值">
+				</form>
+			</div>
+		</div>
+	</div>
+</div>            <div id="mbar" class="gmodule">
+	<div class="mbar-hd">
+		<h2 class="title">精彩推荐</h2>
+	</div>
+	<div class="mbar-bd">
+        <a href="http://www.yihaodian.com/?tracker_u=6425464">1号店超市</a>
+		<a href="http://click.union.360buy.com/JdClick/?unionId=34&siteid=360_zjlwz&to=http://www.360buy.com/fashion.html">京东服装城</a>
+		<a class="green" href="http://track.lefeng.com/track.jsp?aid=4060&url=http://tuan.lefeng.com/index.html?utm_source=hao360&utm_medium=cpm&utm_campaign=103">乐蜂网团购</a>
+		<a href="http://www.yougou.com/?utm_source=AD_yKZKBjRZv">优购网鞋城</a>
+		<a href="http://www.ihaveu.com/l/429816">优众奢侈品 </a>
+		<a href="http://www.suning.com/emall/pcd_10052_10051_253005_home?utm_source=360&utm_medium=zjl&utm_campaign=text ">苏宁易购母婴</a>
+		<a href="http://union.dangdang.com/adlink_transfer.php?fromweb=536-534-hao360zhong&backurl=http://click.r.dangdang.com/_utm_ad_id/30317/http%3A%2F%2Ffashion.dangdang.com%2F">当当服装城</a>
+		<a href="http://click.mediav.com/c?type=2&db=mediav&pub=325_512210_1016912&cus=280_117882_1054685_10123925_10123925000&url=http://www.lvshou.com/?adsfrom360zhongjianlan">绿瘦商城</a>
+                <a href="http://an.moonbasa.com/transfer.aspx?cn=126&type=0&adsiteid=10000007&url=http://www.moonbasa.com/">梦芭莎女装</a>
+	</div>
+</div>            <script type="text/javascript">
+            var UNFOLD_TIME = (new Date).getTime();
+            </script>
+            <div id="cool-site" class="gmodule g-box">
+	<div class="cool-site-hd g-box-hd">
+		<h2 class="title">常用酷站</h2>
+	</div>
+	<div class="cool-site-bd g-box-bd">
+		<div class="panel">
+			<div class="nav">
+				<a href="http://g.360.cn">游戏</a><a href="http://v.360.cn/dianying/index.html">电影</a><a href="http://v.360.cn/dianshi/index.html">电视剧</a><a href="http://xiaoshuo.360.cn/">小说</a><a href="http://music.so.com">音乐</a><a href="http://g.360.cn">闪游</a><a href="http://mall.360.cn/?fname=hao_main1_1130_mall1&eee=hao_main1_1130_mall1">购物</a><a href="http://tuan.360.cn/?do=movie&fname=hao_main1_movie&eee=hao_main1_movie&fsign=6706b09022">团电影票</a><a href="http://tejia.youhui.360.cn/?fname=hao_main1_1130_zhidemai&eee=hao_main1_1130_zhidemai">今日特价品</a><a href="http://tao.mall.360.cn/?eee=tiyan" class="orange">淘宝皇冠店</a>
+			</div>
+			<div class="item">
+				<h3 class="subtitle"><a href="http://g.360.cn">页游</a></h3>
+				<ul class="list">
+					<li><a href="http://ljol2.wan.360.cn/?src=DHN-kz-mid01">龙将2</a></li>
+					<li><a href="http://djj.wan.360.cn/?src=DHN-kz-mid02">大将军</a></li>
+					<li><a href="http://jjsg.wan.360.cn/?src=DHN-kz-mid03">街机三国</a></li>
+					<li><a href="http://cssg.wan.360.cn/?src=DHN-kz-mid04">创世三国</a></li>
+					<li><a href="http://dxz.wan.360.cn/?src=DH-bot-mid05">大侠传</a></li>
+					<li><a href="http://xxcq.wan.360.cn/?src=DHN-kz-mid06">玄仙传奇</a></li>
+				</ul>
+				<a href="http://g.360.cn" class="more">更多»</a>
+			</div>
+			<div class="item">
+				<h3 class="subtitle"><a href="http://v.360.cn/">影视</a></h3>
+				<ul class="list">
+					<li><a href="http://v.360.cn/dianying/index.html">电 影</a></li>
+					<li><a href="http://v.360.cn/dianshi/index.html">电视剧</a></li>
+					<li><a href="http://v.360.cn/zongyi/index.php">综 艺</a></li>
+					<li><a href="http://v.360.cn/yule/index.html">娱 乐</a></li>
+					<li><a href="http://v.360.cn/dongman/index.php">动 漫</a></li>
+					<li><a href="http://v.360.cn/live">电视直播</a></li>
+				</ul>
+				<a href="http://v.360.cn/" class="more">更多»</a>
+			</div>
+			<div class="item">
+				<h3 class="subtitle"><a href="http://v.360.cn/site.html">视频</a></h3>
+				<ul class="list">
+				  <li><a href="http://www.youku.com/">优 酷</a></li>
+                  <li><a href="http://www.tudou.com/?TPA=dW5pb25faWQ9MTAwMzYwXzEwMDAwNF8wMV8wMQ">土豆网</a></li>
+                  <li><a href="http://tv.sohu.com/?pvid=de3fb3b6e98091e7">搜狐视频</a></li>
+                  <li><a href="http://www.letv.com/">乐视网高清</a></li>
+                  <li><a href="http://www.6.cn/">六间房秀场</a></li>
+                  <li><a href="http://www.funshion.com/?alliance=63645">风行高清电影</a></li>
+				</ul>
+				<a href="http://v.360.cn/site.html" class="more">更多»</a>
+			</div>
+			<div class="item">
+				<h3 class="subtitle"><a href="http://xiaoshuo.360.cn/">小说</a></h3>
+				<ul class="list">
+					<li><a href="http://www.qidian.com">起点中文网</a></li>
+					<li><a href="http://www.readnovel.com/">小说阅读网</a></li>
+					<li><a href="http://www.xs8.cn/">言情小说吧</a></li>
+					<li><a href="http://www.qdmm.com/">起点女生网</a></li>
+					<li><a href="http://book.sina.com.cn/">新浪读书</a></li>
+					<li><a href="http://www.huanxia.com">幻侠小说网</a></li>
+				</ul>
+				<a href="http://xiaoshuo.360.cn/" class="more">更多»</a>
+			</div>
+			<div class="item">
+				<h3 class="subtitle"><a href="http://music.so.com">音乐</a></h3>
+				<ul class="list">
+					<li><a href="http://www.kugou.com/1099">酷狗音乐</a></li>
+					<li><a href="http://www.1ting.com/">一听音乐网</a></li>
+					<li><a href="http://www.9ku.com/">九酷音乐网</a></li>
+					<li><a href="http://www.yinyuetai.com">音悦台MV</a></li>
+					<li><a href="http://v.6.cn/?src=360music#r1">音乐现场</a></li>
+					<li><a href="http://www.xiami.com/">虾米音乐网</a></li>
+				</ul>
+				<a href="http://hao.360.cn/yinyuewz.html" class="more">更多»</a>
+			</div>
+			<div class="item">
+				<h3 class="subtitle"><a href="http://g.360.cn">游戏</a></h3>
+				<ul class="list">
+					<li><a href="http://www.4399.com/">4399小游戏</a></li>
+					<li><a href="http://www.7k7k.com/">7K7K小游戏</a></li>
+                                         <li><a href="http://www.2144.cn">2144小游戏</a></li>
+                                        <li><a href="http://hx.game.360.cn/zhuanti1/index.html?source=DHYXHX">360狐仙</a></li>
+					<li><a href="http://www.mygame66.com/210350023.html">九龙朝</a></li>
+                                       <li><a href="http://fr.game.360.cn/zhuanti/888vip/index.html?source=DHDBJX">360凡人修仙</a></li>
+				</ul>
+				<a href="http://g.360.cn" class="more">更多»</a>
+			</div>
+			<div class="item">
+				<h3 class="subtitle"><a href="http://mall.360.cn/?fname=hao_main1_1130_mall2&eee=hao_main1_1130_mall2">购物</a></h3>
+				<ul class="list">
+					<li><a href="http://click.union.360buy.com/JdClick/?unionId=34&siteid=360_kzgw_2&to=http://www.360buy.com/">京东商城</a></li>
+					<li><a href="http://union.suning.com/aas/open/vistorAd.action?webSiteId=0&amp;adInfoId=5763&amp;adBookId=5420&amp;userId=7466&amp;vistURL=http://www.suning.com/&amp;utm_source=hao360&amp;utm_medium=kuzhan&amp;utm_campaign=g1">苏宁易购</a></li>
+					<li><a href="http://www.amazon.cn/?tag=360daohangkz01-23" class="favicon" style="background-image:url(http://p1.qhimg.com/t01066b223e14d00d0b.png);">亚马逊</a></li>
+					<li><a href="http://www.vancl.com/?source=3602010gw">凡客诚品</a></li>
+					<li><a class="orange" href="http://www.jumei.com?referer=360_kz_mall&amp;utm_source=360&amp;utm_medium=nav&amp;utm_content=kz_mall">聚美优品</a></li>
+					<li><a href="http://union.dangdang.com/adlink_transfer.php?fromweb=536-534-hao360ku&backurl=http://click.r.dangdang.com/_utm_ad_id/30270/http%3A%2F%2Fwww.dangdang.com%2F">当当网商城</a></li>
+				</ul>
+				<a href="http://mall.360.cn/?fname=hao_main1_1130_mall3&eee=hao_main1_1130_mall3" class="more">更多»</a>
+			</div>
+		</div>
+		<div class="panel">
+			<div class="nav">
+				<a href="http://sh.qihoo.com/">新闻</a><a href="http://hao.360.cn/junshiguofang.html">军事</a><a href="http://hao.360.cn/tiyuyundong.html">体育</a><a href=" http://hao.360.cn/nba.html">NBA</a><a href="http://hao.360.cn/gupiaojijin.html">财经</a><a href="http://g.360.cn">网游</a><a href="http://xiaoyouxi.360.cn/">小游戏</a><a href="http://qipai.360.cn/?src=DH-mid-qipai">棋牌</a><a href="http://cp.360.cn/ssq/?a=dhgg">双色球</a><a href="http://edu.360.cn/yingyu/">英语</a>
+			</div>
+			<div class="item">
+				<h3 class="subtitle"><a href="http://hao.360.cn/mianfeiziyuan.html">邮箱</a></h3>
+				<ul class="list">
+					<li><a href="http://mail.163.com/">163邮箱</a></li>
+					<li><a href="http://www.126.com/">126邮箱</a></li>
+					<li><a href="http://mail.cn.yahoo.com/">雅虎邮箱</a></li>
+					<li><a href="http://mail.qq.com/">QQ邮箱</a></li>
+					<li><a href="http://mail.sina.com.cn/">新浪邮箱</a></li>
+					<li><a href="http://www.hotmail.com/">Hotmail</a></li>
+				</ul>
+				<a href="http://hao.360.cn/mianfeiziyuan.html" class="more">更多»</a>
+			</div>
+			<div class="item">
+				<h3 class="subtitle"><a href="http://sh.qihoo.com/">新闻</a></h3>
+				<ul class="list">
+					<li><a href="http://news.sina.com.cn/">新浪新闻</a></li>
+					<li><a href="http://news.163.com/">网易新闻</a></li>
+					<li><a href="http://news.sohu.com/">搜狐新闻</a></li>
+					<li><a href="http://news.ifeng.com/">凤凰新闻</a></li>
+					<li><a href="http://www.huanqiu.com/">环球网</a></li>
+					<li><a href="http://www.xinhuanet.com/">新华网</a></li>
+				</ul>
+				<a href="http://sh.qihoo.com/" class="more">更多»</a>
+			</div>
+			<div class="item">
+				<h3 class="subtitle"><a href="http://hao.360.cn/junshiguofang.html">军事</a></h3>
+				<ul class="list">
+					<li><a href="http://military.china.com/zh_cn/">中华网军事</a></li>
+					<li><a href="http://www.tiexue.net/">铁血军事</a></li>
+					<li><a href="http://www.miercn.com/">米尔军情网</a></li>
+					<li><a href="http://www.xinjunshi.com">环球新军事</a></li>
+					<li><a href="http://www.leiting001.com/?360" class="favicon" style="background-image:url(http://p1.qhimg.com/t0122908568c88365ce.png);">雷霆军事</a></li>
+					<li><a href="http://www.qianyan001.com/">军事前沿</a></li>
+				</ul>
+				<a href="http://hao.360.cn/junshiguofang.html" class="more">更多»</a>
+			</div>
+			<div class="item">
+				<h3 class="subtitle"><a href="http://hao.360.cn/tiyuyundong.html">体育</a></h3>
+				<ul class="list">
+					<li><a href="http://sports.sina.com.cn/">新浪体育</a></li>
+					<li><a href="http://sports.sohu.com/">搜狐体育</a></li>
+					<li><a href="http://sports.163.com/">网易体育</a></li>
+					<li><a href="http://www.hupu.com/">虎扑体育</a></li>
+					<li><a href="http://sports.cntv.cn/live/cctv5/index.shtml">CCTV5直播</a></li>
+					<li><a href="http://sports.sina.com.cn/nba/">NBA常规赛</a></li>
+				</ul>
+				<a href="http://hao.360.cn/tiyuyundong.html" class="more">更多»</a>
+			</div>
+			<div class="item">
+				<h3 class="subtitle"><a href="http://hao.360.cn/gupiaojijin.html">财经</a></h3>
+				<ul class="list">
+					<li><a href="http://www.eastmoney.com/">东方财富网</a></li>
+					<li><a href="http://www.hexun.com/">和讯财经</a></li>
+					<li><a href="http://finance.sina.com.cn/">新浪财经</a></li>
+					<li><a href="http://business.sohu.com/">搜狐财经</a></li>
+					<li><a href="http://cn.wsj.com/">华尔街日报</a></li>
+					<li><a href="http://www.cnfol.com/">中金在线</a></li>
+				</ul>
+				<a href="http://hao.360.cn/gupiaojijin.html" class="more">更多»</a>
+			</div>
+			<div class="item">
+				<h3 class="subtitle"><a href="http://g.360.cn">网游</a></h3>
+				<ul class="list">
+                                <li><a href="http://event50.wanmei.com/zhuxian/201212/1218arrival/index.htm?dida=x130013c3002aa7000&pageinfo=wmadap&type=1">诛仙2</a></li>
+                               <li><a href="http://cps.kongzhong.com/?1=52521da2629aa2e3026d4699e3a879e0">坦克世界</a></li>
+                               <li><a href="http://oreg.jj.cn/othersite/reg/13171.html">JJ斗地主</a></li>
+                               <li><a href="http://u.leyoo.com/index.php/Redirect/reg/type/3/pid/8505930">桃花源记</a></li>
+                               <li><a href="http://ck.game.360.cn/zhuanti/index.html?source=DHSYSY">苍 空</a></li>
+                              <li><a href="http://counter.ztgame.com/ref.php?ref=532454&return_url=http%3A%2F%2Fxx.ztgame.com%2Findex.html%3Fad%3D532454">仙侠世界</a></li>
+		 		</ul>
+				<a href="http://g.360.cn" class="more">更多»</a>
+			</div>
+		</div>
+		<div class="panel">
+			<div class="nav">
+				<a href="http://mall.360.cn/?fname=hao_main1_1130_mall4&eee=hao_main1_1130_mall4">商城</a><a href="http://tuan.360.cn/?fname=hao_main1_tuan&eee=hao_main1_tuan&fsign=6f57c4d5af">团购</a><a href="http://tao.mall.360.cn/?eee=tiyan">皇冠店</a><a href="http://www.taobao.com/go/chn/tbk_channel/onsale.php?pid=mm_15144495_2216478_9097195&unid=1">淘宝特卖</a><a href="http://youhui.360.cn/quan?aname=tiyan&eee=hao_main1_quan&fname=hao_main1_quan">优惠券</a><a href="http://hao.360.cn/yinhang.html">银行</a><a href="http://hao.360.cn/jiaoyou.html">交友</a><a href="http://hao.360.cn/shequluntan.html">社区</a><a href="http://hao.360.cn/usedcar.html">二手车</a> <a href="http://www.875.cn/index360.html">好项目</a>
+			</div>
+			<div class="item" data-id="12">
+				<h3 class="subtitle"><a href="http://hao.360.cn/cars.html">汽车</a><a href="" class="guess-toggle">酷站猜</a></h3>
+				<ul class="list">
+					<li><a href="http://www.bitauto.com/?WT.mc_id=360kz">易车网</a></li>
+					<li><a href="HTTP://WWW.AUTOHOME.COM.CN/?PVAREAID=100520">汽车之家</a></li>
+					<li><a href="http://www.cheshi.com" class="favicon" style="background-image:url(http://p1.qhimg.com/t01b856e4e6cc88e5b9.png);">网上车市</a></li>
+					<li><a href="http://auto.sina.com.cn/?c=spr_web_sq_hao360_auto_t001">新浪汽车</a></li>
+					<li><a href="http://www.pcauto.com.cn/?ad=3474">太平洋汽车</a></li>
+					<li><a href="http://www.taoche.com/">淘车网</a></li>
+				</ul>
+				<div class="cool-site-guess" id="cool-guess-car">
+					<ul>
+						<li><ins class="dot">•</ins><a href="http://car.bitauto.com/tree_daogou/?WT.mc_id=360cars" class="blue">导购</a>|<a href="http://news.taoche.com/gouchezhinan/2013-01/124529441.shtml ">精品小排量二手车推荐</a><a href="http://news.taoche.com/gouchezhinan/2013-01/124436118.shtml">黄灯也停得住高效制动二手车</a></li>
+						<li><ins class="dot">•</ins><a href="http://www.bitauto.com/meinv/?WT.mc_id=360cars" class="blue">车模</a>|<a href="http://photo.baa.bitauto.com/autophoto/showtopicphoto-611985-12152859-1.html?WT.mc_id=360cars">色彩妆扮车模堪比阿Sa</a><a href="http://photo.baa.bitauto.com/autophoto/showtopicphoto-686771-12214563-1.html#12214564?WT.mc_id=360cars"> 美女模特私房照大曝光</a></li>
+						<li><ins class="dot">•</ins><a href="http://www.bitauto.com/xinche/?WT.mc_id=360cars" class="blue">新车</a>|<a href="http://news.bitauto.com/abroad/20130204/0906010458.html?WT.mc_id=360cars">奥迪S3敞篷版谍照曝光 </a><a href="http://news.bitauto.com/guochandiezhao/20130201/1506009393.html?WT.mc_id=360cars">独家：红旗L7量产版车谍照</a></li>
+						<li><ins class="dot">•</ins><a href="http://car.bitauto.com/tree_pingce/?WT.mc_id=360cars" class="blue">评测</a>|<a href="http://news.bitauto.com/drive/20130130/0006005698.html?WT.mc_id=360cars"> 奥迪Quattro冰雪体验</a><a href="http://news.bitauto.com/test/20130128/0006004117.html?WT.mc_id=360cars">评测奇瑞新风云2手动版</a></li>
+					</ul>
+					<div class="g-point g-point-top">
+						<span class="border"></span>
+						<span class="bg"></span>
+					</div>
+				</div>
+				<a href="http://hao.360.cn/cars.html" class="more">更多»</a>
+			</div>
+			<div class="item">
+				<h3 class="subtitle"><a href="http://hao.360.cn/yinhang.html">银行</a></h3>
+				<ul class="list">
+					<li><a href="http://www.icbc.com.cn/">工商银行</a></li>
+					<li><a href="http://www.ccb.com/">建设银行</a></li>
+					<li><a href="http://www.boc.cn/">中国银行</a></li>
+					<li><a href="http://www.cmbchina.com/">招商银行</a></li>
+					<li><a href="http://www.abchina.com/">农业银行</a></li>
+					<li><a href="http://www.bankcomm.com/">交通银行</a></li>
+				</ul>
+				<a href="http://hao.360.cn/yinhang.html" class="more">更多»</a>
+			</div>
+			<div class="item">
+				<h3 class="subtitle"><a href="http://mall.360.cn/?fname=hao_main1_1130_mall5&eee=hao_main1_1130_mall5">商城</a></h3>
+				<ul class="list">
 
-<pre><code>$ cd your_repo_root/repo_name
-$ git fetch origin
-$ git checkout gh-pages
-</code></pre>
+					<li><a href="http://www.1mall.com/?tracker_u=6425448">1号商城</a></li>
+					<li><a href="http://www.gome.com.cn/ec/homeus/?cmpid=dh_360_sc">国美在线</a></li>
+					<li><a class="orange" href="http://a1722.oadz.com/link/C/1722/3081/IxHUGZ90vB8.kyVh-hHcIe5.Ehk_/p016/0/http://www.jiuxian.com/coop/cpstrack.php?src=sem&amp;code=360_kz_20120929&amp;url=http://www.jiuxian.com">酒仙网购酒</a></li>
+					<li><a href="http://www.womai.com/?etc_n=directad&etc_m=hao360&etc_t=sysc&utm_source=360&utm_medium=guide&utm_content=sysc&utm_campaign=ym">中粮我买网</a></li>
+					<li><a href="http://chujian.360.cn/?fname=hao_main1_chujian&eee=hao_main1_chujian">逛宝贝</a></li>
+					<li><a href="http://track.lefeng.com/track.jsp?aid=4880&amp;url=http://www.lefeng.com/?utm_source=hao360&amp;utm_medium=cpm&amp;utm_campaign=113">乐蜂网化妆品</a></li>
+				</ul>
+				<a href="http://mall.360.cn/?fname=hao_main1_1130_mall6&eee=hao_main1_1130_mall6" class="more">更多»</a>
+			</div>
+			<div class="item">
+				<h3 class="subtitle"><a href="http://tuan.360.cn/?fname=hao_main1_tuan&eee=hao_main1_tuan&fsign=6f57c4d5af">团购</a></h3>
+				<ul class="list">
+					<li><a href="http://www.meituan.com/?utm_campaign=hao.360.cn&amp;utm_medium=nav&amp;utm_source=hao.360.cn&amp;utm_content=type">美团网</a></li>
+					<li><a href="http://open.union.360.cn/go?bid=2000345&qihoo_id=36100&cid=0&aid=137833&url=http%3A%2F%2Fwww.55tuan.com&sign=d5ceabbec1">窝窝团</a></li>
+					<li><a href="http://www.lashou.com/?qdh=3012">拉手网</a></li>
+					<li><a href="http://click.union.360buy.com/JdClick/?unionId=34&amp;siteid=360_kztg&amp;to=http://tuan.360buy.com/">京东团购</a></li>
+					<li><a href="http://www.1mall.com/tuangou/index.do?tracker_u=10634120034">1号店团购</a></li>
+				  <li><a href="http://open.union.360.cn/go?bid=2000296&qihoo_id=36100&cid=0&aid=87&url=http%3A%2F%2Ft.dianping.com&sign=040e21b84d">大众点评团</a></li> 
+				</ul>
+				<a href="http://tuan.360.cn/?fname=hao_main1_tuan&eee=hao_main1_tuan&fsign=6f57c4d5af" class="more">更多»</a>
+			</div>
+			<div class="item">
+				<h3 class="subtitle"><a href="http://hao.360.cn/jiaoyou.html">交友</a></h3>
+				<ul class="list">
+					<li><a href="http://www.jiayuan.com/st/?id=4678&amp;url=www.jiayuan.com">世纪佳缘交友</a></li>
+					<li><a href="http://www.zhenai.com/901181.html">珍爱婚恋网</a></li>
+				                    <li><a href="http://www.baihe.com/?policy=1&Channel=hao360-k&Code=140011-b">百合网</a></li>					
+				                    <li><a href="http://www.renren.com/">人人网</a></li>
+				                    <li><a href="http://www.juedui100.com/jueduiJumpResource/20001/?url=http://www.juedui100.com/">绝对100交友</a></li>
+				                    <li><a href="http://www.zhiji.com/">知己同城交友</a></li>
+				</ul>
+				                    <a href="http://hao.360.cn/jiaoyou.html" class="more">更多»</a>
+			</div>
+			<div class="item">
+				<h3 class="subtitle"><a href="http://hao.360.cn/shequluntan.html">社区</a></h3>
+				<ul class="list">
+					<li><a href="http://www.kaixin001.com/">开心网</a></li>
+					<li><a href="http://qzone.qq.com/">QQ空间</a></li>
+					<li><a href="http://www.tianya.cn/">天涯社区</a></li>
+					<li><a href="http://dzh.mop.com/">猫扑大杂烩</a></li>
+                                        <li><a href="http://weibo.com/?c=spr_web_360_hao360_weibo_t002">新浪微博</a></li>
+					<li><a href="http://www.douban.com/">豆 瓣</a></li>
+				</ul>
+				<a href="http://hao.360.cn/shequluntan.html" class="more">更多»</a>
+			</div>
+		</div>
+		<div class="panel">
+			<div class="nav">
+				<a href="http://cp.360.cn/?a=dhgg1">彩票</a><a href="http://go.360.cn/">旅游</a><a href="http://hao.360.cn/nvxing.html">女性</a><a href="http://hao.360.cn/fashion.html">时尚</a><a href="http://hao.360.cn/rencaizhaopin.html">招聘</a><a href="http://hao.360.cn/diannaowangluo.html">电脑</a><a href="http://baoku.360.cn">软件</a><a href="http://hao.360.cn/shoujitongxin.html">手机</a><a href="http://zhushou.360.cn/soft/?ref=wzdh">手机应用</a>
+			</div>
+			<div class="item">
+				<h3 class="subtitle"><a href="http://hao.360.cn/shenghuoxinxi.html">生活</a></h3>
+				<ul class="list">
+					<li><a href="http://www.ganji.com/?ca_name=hao360_hao360_042_quanguoshouye">赶集网</a></li>
+					<li><a href="http://www.mmbang.com">怀孕妈妈帮</a></li>
+					<li><a href="http://www.soufun.com/">搜房网</a></li>
+					<li><a href="http://www.anjuke.com/?utm_source=navi-360-kz&utm_medium=cpc&pi=navi-360-kz">安居客房产</a></li>
+					<li><a href="http://www.woxihuan.com/">我喜欢</a></li>
+					<li><a href="http://www.58.com/?path=?utm_source%3dhao360%26utm_campaign%3dhao360-102&360cool_site">58同城</a></li>
+				</ul>
+				<a href="http://hao.360.cn/shenghuoxinxi.html" class="more">更多»</a>
+			</div>
+			<div class="item">
+				<h3 class="subtitle"><a href="http://cp.360.cn/?a=dhgg2">彩票</a></h3>
+				<ul class="list">
+					<li><a href="http://cp.360.cn/kj/kaijiang.html?a=dhgg">最新开奖号码</a></li>
+					<li><a href="http://cp.360.cn/ssq/?a=dhgg">双色球</a></li>
+					<li><a href="http://cp.360.cn/coophall/?a=dhgg">彩票合买</a></li>
+					<li><a href="http://zst.cp.360.cn/chart.html?LotID=51&amp;ChartID=20001&amp;StatType=1&amp;MinIssue=0&amp;MaxIssue=0&amp;IssueTop=30&amp;src=dhgg">分析图表</a></li>
+					<li><a href="http://cp.360.cn/slt/?a=dhgg">大乐透</a></li>
+					<li><a href="http://cp.360.cn/sd/?a=dhgg">福彩3D</a></li>
+				</ul>
+				<a href="http://cp.360.cn/hall/hall.html?a=dhgg" class="more">更多»</a>
+			</div>
+			<div class="item">
+				<h3 class="subtitle"><a href="http://go.360.cn/">旅游</a></h3>
+				<ul class="list">
+					<li><a href="http://u.ctrip.com/union/CtripRedirect.aspx?TypeID=2&Allianceid=1328&sid=1551&OUID=&jumpUrl=http://vacations.ctrip.com">携程旅游度假</a></li>
+					<li><a href="http://www.qunar.com?ex_track=auto_4e23aea8">去哪儿机票</a></li>
+					<li><a href="http://jipiao.kuxun.cn/index_s.html?fromid=Khl360cn-S1173791-T1203571&amp;est=marketing">酷讯机票</a></li>
+					<li><a href="http://www.tuniu.com/?p=1592&cmpid=mkt_08004801&utm_campaign=daohang&utm_source=hao.360.cn&utm_medium=referral" class="orange">途牛旅游网</a></li>
+					<li><a href="http://www.elong.com/?banid=360ku">艺龙酒店预订</a></li>
+					<li><a href="http://www.17u.cn/#refid=16516372">同程旅游网</a></li>
+				</ul>
+				<a href="http://go.360.cn/website" class="more">更多»</a>
+			</div>
+			<div class="item">
+				<h3 class="subtitle"><a href="http://hao.360.cn/nvxing.html">女性</a></h3>
+				<ul class="list">
+					<li><a href="http://www.rayli.com.cn/?utm_source=360woman&amp;utm_medium=paid" class="favicon" style="background-image:url(http://p1.qhimg.com/t0102310a8b87b76dfe.png);">瑞丽网</a></li>
+					<li><a href="http://www.pclady.com.cn/?ad=9323">太平洋女性</a></li>
+					<li><a href="http://www.aili.com/">爱丽女性网</a></li>
+					<li><a href="http://www.meilishuo.com/welcome?frm=360_homepage">美丽说</a></li>
+					<li><a href="http://www.mogujie.com/welcome?from=360">蘑菇街</a></li> 
+					<li><a href="http://www.onlylady.com">女人志</a></li>
+				</ul>
+				<a href="http://hao.360.cn/nvxing.html" class="more">更多»</a>
+			</div>
+			<div class="item">
+				<h3 class="subtitle"><a href="http://hao.360.cn/fashion.html">时尚</a></h3>
+				<ul class="list">
+					<li><a href="http://www.vogue.com.cn/">服饰与美容</a></li>
+					<li><a href="http://www.gq.com.cn/">GQ男士网</a></li>
+					<li><a href="http://www.55bbs.com/">55BBS</a></li>
+					<li><a href="http://www.lady8844.com">爱美女性网</a></li>
+					<li><a href="http://www.self.com.cn/">悦己女性网</a></li>
+					<li><a href="http://lux.360.cn/?fname=hao_aside_lux&eee=hao_aside_lux">奢侈品大全</a></li>
+				</ul>
+				<a href="http://hao.360.cn/fashion.html" class="more">更多»</a>
+			</div>
+			<div class="item">
+				<h3 class="subtitle"><a href="http://hao.360.cn/rencaizhaopin.html">招聘</a></h3>
+				<ul class="list">
+				<li><a href="http://cnt.zhaopin.com/Market/whole_counter.jsp?sid=121111369&site=qihukuzhan&url=http://www.zhaopin.com">智联招聘</a></li>
+	              <li><a href="http://my.51job.com/my/trace.php?adsnum=232019&ajp=aHR0cDovL3d3dy41MWpvYi5jb20v">前程无忧</a></li>
+	              <li><a href="http://www.ganji.com/zhaopin/?ca_name=dh_hao360_013_zpku">赶集招聘</a></li>
+	              <li><a href="http://www.58.com/?path=job.shtml?utm_source%3dhao360%26utm_campaign%3dhao360-108&360cool_site">58同城招聘</a></li>
+	              <li><a href="http://www.lietou.com/event/landingpage/sojob.shtml?mscid=t_d_003">猎聘网</a></li>
+	              <li><a href="http://www.yingjiesheng.com/">应届生求职</a></li>
+	          	</ul>
+				<a href="http://hao.360.cn/rencaizhaopin.html" class="more">更多»</a>
+			</div>
+			<div class="item">
+				<h3 class="subtitle"><a href="http://hao.360.cn/diannaowangluo.html">电脑</a></h3>
+				<ul class="list">
+					<li><a href="http://www.zol.com.cn/">中关村在线</a></li>
+					<li><a href="http://www.pchome.net/">电脑之家</a></li>
+					<li><a href="http://www.it168.com/">IT168电脑</a></li>
+					<li><a href="http://www.pcpop.com/">泡泡网</a></li>
+					<li><a href="http://www.pconline.com.cn/?ad=6348">太平洋电脑</a></li>
+					<li><a href="http://www.lenovo.com.cn/">联想电脑</a></li>
+				</ul>
+				<a href="http://hao.360.cn/diannaowangluo.html" class="more">更多»</a>
+			</div>
+			<div class="item">
+				<h3 class="subtitle"><a href="http://hao.360.cn/shoujitongxin.html">手机</a></h3>
+				<ul class="list">
+					<li><a href="http://mobile.zol.com.cn/">中关村手机</a></li>
+					<li><a href="http://mobile.pconline.com.cn/?ad=6349&360cool_site">太平洋手机</a></li>
+					<li><a href="http://www.cnmo.com/">手机中国</a></li>
+					<li><a href="http://mobile.it168.com/">IT168手机</a></li>
+					<li><a href="http://mobile.pcpop.com/">泡泡手机</a></li>
+					<li><a href="http://zhushou.360.cn/zhuanti/detail/id/101990/cid/1">抢火车票</a></li>
+				</ul>
+				<a href="http://hao.360.cn/shoujitongxin.html" class="more">更多»</a>
+			</div>
+			<div class="item">
+				<h3 class="subtitle"><a href="http://zhushou.360.cn/">应用</a></h3>
+				<ul class="list">
+					<li><a href="http://zhushou.360.cn/detail/index/soft_id/3784?recrefer=SE_D_Zaker%E9%98%85%E8%AF%BB">Zaker阅读</a></li>
+					<li><a href="http://zhushou.360.cn/detail/index/soft_id/196116?recrefer=SE_D_%E6%8A%AC%E6%9D%A0">抬 杠</a></li>
+					<li><a href="http://zhushou.360.cn/detail/index/soft_id/125088">唱 吧</a></li>
+					<li><a href="http://zhushou.360.cn/detail/index/soft_id/214664?recrefer=SE_D_%E7%A5%9E%E5%BA%99%E9%80%83%E4%BA%A1">神庙逃亡2</a></li>
+					<li><a href="http://zhushou.360.cn/detail/index/soft_id/203100?recrefer=SE_D_">呼 啦</a></li>
+					<li><a href="http://mse.360.cn/index_hao360.html">手机浏览器</a></li>
+				</ul>
+				<a href="http://zhushou.360.cn/" class="more">更多»</a>
+			</div>
+			<div class="item">
+				<h3 class="subtitle"><a href="http://hao.360.cn/qiqukuzhan.html">酷站</a></h3>
+				<ul class="list">
+					<li><a href="http://huaban.com/?md=360_gd1">花瓣网</a></li>
+					<li><a href="http://redirect.daoxila.com/?utm_source=DaoHang&amp;utm_medium=360&amp;utm_term=Index&amp;utm_content=DaoXiLa&amp;utm_campaign=Index_KuZhan">到喜啦婚宴网</a></li>
+					<li><a href="http://www.youtx.com/">游天下短租网</a></li>
+					<li><a href="http://wedding.xiaomishu.com/?utm_campaign=360kz&utm_medium=cpc&utm_source=360kuzhan&utm_term=hunyan">小秘书婚宴网</a></li>
+					<li><a href="http://xiu.56.com/p/20118978">56美女秀场</a></li>
+					<li><a href="http://www.suv.cn/">SUV汽车</a></li>
+				</ul>
+				<a href="http://hao.360.cn/qiqukuzhan.html" class="more">更多»</a>
+			</div>
+			<div class="item">
+				<h3 class="subtitle"><a href="http://tools.360.cn/">查询</a></h3>
+				<ul class="list">
+					<li><a href="http://go.360.cn/train">火车票</a></li>
+					<li><a href="http://go.360.cn/flight">机票查询</a></li>
+					<li><a href="http://hao.360.cn/kuaidi.html">物流快递</a></li>
+					<li><a href="http://hao.360.cn/weizhang.html">违章查询</a></li>
+					<li><a href="http://www.148365.com/">免费法律咨询</a></li>
+					<li><a href="http://edu.360.cn/yingyu?tn=xyy">学英语</a></li>
+				</ul>
+				<a href="http://tools.360.cn/" class="more">更多»</a>
+			</div>
+		</div>
+	</div>
+</div>            <div id="bangbang" class="gmodule g-box">
+	<div class="bangbang-hd">
+		<h2>随便看看</h2>
+	</div>
+	<div class="bangbang-bd">
+		<ul class="g-list">
+			<li class="g-pic">
+				<a href="http://tuan.360.cn/?do=themescene&themesceneid=243&from=theme243&fname=hao_sbkk_0205_tuanp_nianyefan&eee=hao_sbkk_0205_tuanp_nianyefan&fsign=d214091922">
+					<img src="http://p0.qhimg.com/t016debe2e4f2692ad5.jpg">
+					<em>春节团圆年夜饭预订 </em>
+					<span></span>
+					<span class="mask"></span>
+				</a>
+			</li>
+			<li><a href="http://go.360.cn/">旅游</a>|<a href="http://go.360.cn/">探秘舌尖上的美食之旅</a></li>
+			<li><a href="http://sh.qihoo.com/">聚焦</a>|<a href="http://sh.qihoo.com/zt/lwgcpd.html">6千万公路建成1年损坏</a></li>
+		</ul>
+	</div>
+	<div class="dam"></div>
+</div>		</div>
+		<div id="ft">
+            <div id="category-bottom" class="gmodule g-box">
+	<div class="category-bottom-hd">
+		<h2>底部分类</h2>
+	</div>
+	<div class="category-bottom-bd">
+		<div class="inner">
+			<div class="panel">
+				<div class="item">
+					<h3 class="subtitle xw"><a href="http://sh.qihoo.com/">新闻</a></h3>
+					<ul class="list">
+						<li><a href="http://hao.360.cn/junshiguofang.html">军事</a></li>
+						<li><a href="http://hao.360.cn/youmoxiaohua.html">搞笑</a></li>
+						<li><a href="http://hao.360.cn/yulebagua.html">八卦</a></li>
+					</ul>
+				</div>
+				<div class="item">
+					<h3 class="subtitle ty"><a href="http://hao.360.cn/tiyuyundong.html">体育</a></h3>
+					<ul class="list">
+						<li><a href="http://hao.360.cn/nba.html">NBA</a></li>
+						<li><a href="http://hao.360.cn/cba.html">CBA</a></li>
+						<li><a href="http://hao.360.cn/zuqiushijie.html">足球</a></li>
+					</ul>
+				</div>
+				<div class="item">
+					<h3 class="subtitle jy"><a href="http://edu.360.cn/">教育</a></h3>
+					<ul class="list">
+						<li><a href="http://edu.360.cn/yingyu/">英语</a></li>
+                                               <li><a href="http://edu.360.cn/site/kaoshi/">考试</a></li>
+						<li><a href="http://edu.360.cn/site/jiajiao/">辅导班</a></li>
+						
+					</ul>
+				</div>
+				<div class="item">
+					<h3 class="subtitle mn"><a href="http://hao.360.cn/meinvdaohang.html">美女</a></h3>
+					<ul class="list">
+						<li><a href="http://hao.360.cn/bizhitupian.html">图片</a></li>
+						<li><a href="http://hao.360.cn/sheying.html">摄影</a></li>
+						<li><a href="http://hao.360.cn/zhuomian.html">壁纸</a></li>
+					</ul>
+				</div>
+				<div class="item">
+					<h3 class="subtitle ly"><a href="http://go.360.cn/">旅游</a></h3>
+					<ul class="list">
+						<li><a href="http://go.360.cn/train">火车票</a></li>
+						<li><a href="http://go.360.cn/flight">机票</a></li>
+						<li><a href="http://tq.360.cn/">天气</a></li>
+					</ul>
+				</div>
+			</div>
+			<div class="panel">
+				<div class="item">
+					<h3 class="subtitle dy"><a href="http://v.360.cn/dianshi/index.html">电视剧</a></h3>
+					<ul class="list">
+						<li><a href="http://v.360.cn/dianying/index.html">电影</a></li>
+						<li><a href="http://v.360.cn/dongman/index.html">动漫</a></li>
+						<li><a href="http://v.360.cn/zongyi/index.php">综艺</a></li>
+					</ul>
+				</div>
+				<div class="item">
+					<h3 class="subtitle gw"><a href="http://s.mall.360.cn/?fname=hao_dibu_small&eee=hao_dibu_small">购物</a></h3>
+					<ul class="list">
+						<li><a href="http://tuan.360.cn/?fname=hao_dibu_tuan&eee=hao_dibu_tuan&fsign=93014b6867">团购</a></li>						
+						<li><a href="http://youhui.360.cn/quan?fname=hao_dibu_quan&eee=hao_dibu_quan">优惠券</a></li>
+                                               <li><a href="http://tejia.youhui.360.cn/?fname=hao_dibu_zhidemai&eee=hao_dibu_zhidemai">特卖</a></li>
+					</ul>
+				</div>
+				<div class="item">
+					<h3 class="subtitle zp"><a href="http://hao.360.cn/rencaizhaopin.html">招聘</a></h3>
+					<ul class="list">
+						<li><a href="http://hao.360.cn/daxue/index.html">大学</a></li>
+						<li><a href="http://edu.360.cn/site/zhijiao/">会计</a></li>
+						<li><a href="http://hao.360.cn/jiaoyou.html">交友</a></li>
+					</ul>
+				</div>
+				<div class="item">
+					<h3 class="subtitle sh"><a href="http://hao.360.cn/shenghuoxinxi.html">生活</a></h3>
+					<ul class="list">
+						<li><a href="http://hao.360.cn/fangchanjiaju.html">房产</a></li>
+						<li><a href="http://hao.360.cn/zhuangxiujiaju.html">家居</a></li>
+						<li><a href="http://hao.360.cn/yiliaojiankang.html">健康</a></li>
+					</ul>
+				</div>
+				<div class="item">
+					<h3 class="subtitle nx"><a href="http://hao.360.cn/nvxing.html">女性</a></h3>
+					<ul class="list">
+						<li><a href="http://hao.360.cn/fashion.html">时尚</a></li>
+						<li><a href="http://hao.360.cn/jianfei.html">减肥</a></li>
+						<li><a href="http://hao.360.cn/meirong.html">美容</a></li>
+					</ul>
+				</div>
+			</div>
+			<div class="panel">
+				<div class="item">
+					<h3 class="subtitle cp"><a href="http://cp.360.cn/hall/hall.html?a=dh2">彩票</a></h3>
+					<ul class="list">
+						<li><a href="http://hao.360.cn/gupiaojijin.html">股票</a></li>
+						<li><a href="http://hao.360.cn/touzilicai.html">基金</a></li>
+						<li><a href="http://hao.360.cn/yinhang.html">银行</a></li>
+					</ul>
+				</div>
+				<div class="item">
+					<h3 class="subtitle yx"><a href="http://g.360.cn/">游戏</a></h3>
+					<ul class="list">
+						<li><a href="http://qipai.360.cn/">棋牌</a></li>
+						<li><a href="http://g.360.cn/pcg/index.html">单机</a></li>
+						<li><a href="http://g.360.cn/xyx/index.html">小游戏</a></li>
+					</ul>
+				</div>
+				<div class="item">
+					<h3 class="subtitle dn"><a href="http://hao.360.cn/diannaowangluo.html">电脑</a></h3>
+					<ul class="list">
+						<li><a href="http://hao.360.cn/ruanjianxiazai.html">软件</a></li>
+						<li><a href="http://hao.360.cn/shoujitongxin.html">手机</a></li>
+						<li><a href="http://hao.360.cn/jiadianshuma.html">家电</a></li>
 
-<p>If you're using the GitHub for Mac, simply sync your repository and you'll see the new branch.</p>
-
-<h3>Designer Templates</h3>
-
-<p>We've crafted some handsome templates for you to use. Go ahead and continue to layouts to browse through them. You can easily go back to edit your page before publishing. After publishing your page, you can revisit the page generator and switch to another theme. Your Page content will be preserved if it remained markdown format.</p>
-
-<h3>Rather Drive Stick?</h3>
-
-<p>If you prefer to not use the automatic generator, push a branch named <code>gh-pages</code> to your repository to create a page manually. In addition to supporting regular HTML content, GitHub Pages support Jekyll, a simple, blog aware static site generator written by our own Tom Preston-Werner. Jekyll makes it easy to create site-wide headers and footers without having to copy them across every page. It also offers intelligent blog support and other advanced templating features.</p>
-
-<h3>Authors and Contributors</h3>
-
-<p>You can <a href="https://github.com/blog/821" class="user-mention">@mention</a> a GitHub username to generate a link to their profile. The resulting <code>&lt;a&gt;</code> element will link to the contributor's GitHub Profile. For example: In 2007, Chris Wanstrath (<a href="https://github.com/defunkt" class="user-mention">@defunkt</a>), PJ Hyett (<a href="https://github.com/pjhyett" class="user-mention">@pjhyett</a>), and Tom Preston-Werner (<a href="https://github.com/mojombo" class="user-mention">@mojombo</a>) founded GitHub.</p>
-
-<h3>Support or Contact</h3>
-
-<p>Having trouble with Pages? Check out the documentation at <a href="http://help.github.com/pages">http://help.github.com/pages</a> or contact <a href="mailto:support@github.com">support@github.com</a> and we’ll help you sort it out.</p>
-        </article>
-      </div>
+					</ul>
+				</div>
+				<div class="item">
+					<h3 class="subtitle ah"><a href="http://hao.360.cn/yishuaihao.html">爱好</a></h3>
+					<ul class="list">
+						<li><a href="http://hao.360.cn/shejishijue.html">设计</a></li>
+						<li><a href="http://hao.360.cn/quyi.html">曲艺</a></li>
+						<li><a href="http://hao.360.cn/zongjiao.html">宗教</a></li>
+					</ul>
+				</div>
+				<div class="item">
+					<h3 class="subtitle et"><a href="http://hao.360.cn/children.html">儿童</a></h3>
+					<ul class="list">
+						<li><a href="http://hao.360.cn/muying.html">母婴</a></li>
+						<li><a href="http://hao.360.cn/chongwuhuaniao.html">宠物</a></li>
+						<li><a href="http://caipu.hao.360.cn/">美食</a></li>
+					</ul>
+				</div>
+			</div>
+			<div class="panel">
+				<div class="item">
+					<h3 class="subtitle yy"><a href="http://music.so.com/">音乐</a></h3>
+					<ul class="list">
+						<li><a href="http://xiaoshuo.360.cn/">小说</a></li>
+						<li><a href="http://hao.360.cn/xingzuo.html">星座</a></li>
+						<li><a href="http://hao.360.cn/manhua.html">漫画</a></li>
+					</ul>
+				</div>
+				<div class="item">
+					<h3 class="subtitle qc"><a href="http://hao.360.cn/cars.html">汽车</a></h3>
+					<ul class="list">
+						<li><a href="http://hao.360.cn/usedcar.html" class="orange">二手车</a></li>
+						<li><a href="http://hao.360.cn/weizhang.html">违章</a></li>
+						<li><a href="http://hao.360.cn/ditu.html">地图</a></li>
+					</ul>
+				</div>
+				<div class="item">
+					<h3 class="subtitle bz"><a href="http://hao.360.cn/baozhi.html">报纸</a></h3>
+					<ul class="list">
+						<li><a href="http://hao.360.cn/hunqing.html">婚嫁</a></li>
+						<li><a href="http://hao.360.cn/zhengfubumen.html">政府</a></li>
+						<li><a href="http://hao.360.cn/shehuirenwen.html">历史</a></li>
+					</ul>
+				</div>
+				<div class="item">
+					<h3 class="subtitle zs"><a href="http://www.875.cn/index360.html">招商</a></h3>
+					<ul class="list">
+						<li><a href="http://hao.360.cn/baoxian.html">保险</a></li>
+						<li><a href="http://hao.360.cn/hangyewangzhan.html">行业</a></li>
+						<li><a href="http://hao.360.cn/falvfagui.html">法律</a></li>
+					</ul>
+				</div>
+				<div class="item">
+					<h3 class="subtitle dfz"><a href="http://hao.360.cn/city/index.html">地方</a></h3>
+					<ul class="list">
+						<li><a href="http://hao.360.cn/city/sh.html">上海</a></li>
+						<li><a href="http://hao.360.cn/city/fj.html">福建</a></li>
+						<li><a href="http://hao.360.cn/shenghuowz.html" class="more">更多»</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="category-bottom-ft">
+		<div class="inner">
+			<div class="panel">
+				<div class="item">
+		        	<h3 class="subtitle sy"><a href="http://tools.360.cn/">实用查询</a></h3>
+		    		<ul class="list">
+		                <li><a href="http://cp.360.cn/kj/kaijiang.html?a=dhdb">彩票开奖</a></li>
+		                <li><a href="http://hao.360.cn/zgjm.html">周公解梦</a></li>
+		                <li><a href="http://hao.360.cn/weizhang.html">车辆违章</a></li>
+		                <li><a href="http://jishi.360.cn/?utm_source=360site&utm_medium=hao360&utm_campaign=2257">免费修电脑</a></li>
+		                <li><a href="http://hao.360.cn/sjgs.html">手机查询</a></li>
+		                <li><a href="http://edu.360.cn/fanyi">在线翻译</a></li>
+		                <li><a href="http://hao.360.cn/kuaidi.html">快递查询</a></li>
+		                <li><a href="http://go.360.cn/flight/" class="orange">机票预订</a></li>
+		                <li><a href="http://hotel.qunar.com/?ex_track=auto_4e4cc935">特价酒店</a></li>
+		                <li><a href="http://go.360.cn/train">火车查询</a></li> 
+		        	</ul>
+				</div>
+			</div>
+			<div class="panel">
+				<div class="item">
+					<h3 class="subtitle yx"><a href="http://g.360.cn">游戏精选</a></h3>
+					<ul class="list">
+			            <li><a href="http://soyo.360.cn/zt/cf.html">穿越火线</a></li>
+			            <li><a href="http://soyo.360.cn/zt/lianliankan.html">连连看</a></li>
+			            <li><a href="http://g.360.cn/xyx/index.html?Src=yxjx">小游戏</a></li>
+			            <li><a href="http://soyo.360.cn/zt/xiuxian.html?Src=dhyxjh" class="new">休闲游戏</a></li>
+			            <li><a href="http://soyo.360.cn/zt/plants.html">植物战僵尸</a></li>
+			            <li><a href="http://soyo.360.cn/zt/lol.html?src=dhyxjx">英雄联盟</a></li>
+			            <li><a href="http://12.1198.com/nyt/?i=OMZjPejoYPeaiqQEqwhrmlqUuerp3yY=">三国战纪</a></li>
+			            <li><a href="http://counter.ztgame.com/ref.php?ref=532454&return_url=http%3A%2F%2Fxx.ztgame.com%2Findex.html%3Fad%3D532454">仙侠世界</a></li>
+			            <li><a href="http://www.mygame66.com/210350023.html">九龙朝</a></li>
+		                <li><a href="http://hx.game.360.cn/zhuanti1/index.html?source=DHYXHX">360狐仙</a></li>
+					</ul>
+				</div>
+			</div>
+			<div class="panel">
+				<div class="item">
+					<h3 class="subtitle yx"><a href="http://wan.360.cn/?src=DH-bot-b7">网页游戏</a></h3>
+					<ul class="list">
+			            <li><a href="http://qmr.wan.360.cn/?src=DH-bot-b7">秦美人</a></li>
+			            <li><a href="http://lhzs.wan.360.cn/?src=DH-bot-b7">烈火战神</a></li>
+			            <li><a href="http://sqol.wan.360.cn/?src=DH-bot-b7">神曲</a></li>
+			            <li><a href="http://hsol.wan.360.cn/?src=DH-bot-b7">海神</a></li>
+			            <li><a href=" http://sjsg.wan.360.cn/?src=DH-bot-b7">神将三国</a></li>
+			            <li><a href="http://txj.wan.360.cn/?src=DH-bot-b7">天行剑</a></li>
+			            <li><a href="http://zxy.wan.360.cn/?src=DH-bot-b7" class="hot">醉西游</a></li>
+			            <li><a href="http://frmmo.wan.360.cn/?src=DH-bot-b7">仙剑情</a></li>
+			            <li><a href="http://lmzg.wan.360.cn/?src=DHN-kz-b7"> 黎明之光</a></li>
+			            <li><a href="http://djh.wan.360.cn/?src=DH-bot-b7">斗将魂</a></li> 
+					</ul>
+				</div>
+			</div>
+			<div class="panel">
+				<div class="item">
+					<h3 class="subtitle dn"><a href="http://hao.360.cn/ruanjianxiazai.html">常用软件</a></h3>
+					<ul class="list">
+			            <li><a href="http://www.360.cn/">360安全卫士</a></li>
+			            <li><a href="http://shouji.360.cn/" class="green">360手机卫士</a></li>
+			            <li><a href="http://baoku.360.cn/soft/show/appid/2">游戏保险箱</a></li>
+			            <li><a href="http://baoku.360.cn/soft/show/appid/105196">迅雷下载</a></li>
+			            <li><a href="http://baoku.360.cn/soft/show/appid/103352">腾讯QQ</a></li>
+			            <li><a href="http://bizhi.360.cn/">高清壁纸</a></li>
+			            <li><a href="http://baoku.360.cn/soft/show/appid/10162">美图秀秀</a></li>
+			            <li><a href="http://baoku.360.cn/soft/show/appid/105368">暴风影音</a></li>
+			            <li><a href="http://baoku.360.cn/soft/show/appid/72">酷狗音乐</a></li>
+			            <li><a href="http://zhushou.360.cn/?ref=wzdh4">手机软件</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>		</div>
+	</div>
+	<div id="doc-ft">
+        <div id="footer" class="gmodule g-box">
+    <div id="loulou-wrap">
+        <script type="text/javascript">
+        hao360.docWrite('<\!--');
+        </script>
+        <iframe src="./loulou.html" id="loulou" frameborder="0" scrolling="no" allowtransparency="true" height="384"></iframe>
+        <!-- DO NOT DELETE -->
     </div>
-    <footer>
-      <div class="owner">
-      <p><a href="https://github.com/gary627" class="avatar"><img src="https://secure.gravatar.com/avatar/c654b2773dcc2610c0dbcb1c7d45ad37?s=30&amp;d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-user-420.png" width="48" height="48"/></a> <a href="https://github.com/gary627">gary627</a> maintains <a href="https://github.com/gary627/DataSource">Datasource</a></p>
+</div>        <div id="copyright" class="gmodule g-box">
+	<div class="copyright-bd">
+		<a href="http://corp.360.cn/">Investor Relations</a> | <a href="http://hao.360.cn/about.html" target="_blank">关于我们</a> | <a target="_blank" href="http://hao.360.cn/mkt.html">广告合作</a> | <a href="http://feedback.hao.360.cn" target="_blank">投诉建议</a> | <a target="_blank" href="http://webscan.360.cn/">挂马监测</a> | <a target="_blank" href="http://hao.360.cn/shouji.html">手机版</a> | <span class="rights">Copyright ©360.cn. All Rights Reserved.</span> <a href="http://www.miibeian.gov.cn/" rel="noreferrer" class="icp" target="_blank">京ICP证080047号</a> <a href="http://www.bjgaj.gov.cn/web/" class="icp" target="_blank">京公网安备110000000006号</a>
+	</div>
+</div>	</div>
+	<div id="extra">
+                <div id="background">
+	<div class="bg-outer">
+		<div class="bg-inner"><!-- 背景 --></div>
+	</div>
+</div>        <style>#corner-flash{z-index:99;overflow:hidden;position:absolute;top:0;right:0;width:100px;height:100px;display: none;}#corner-flash .cont{position:absolute;top:0;left:0;width:100px;height:100px;}#corner-flash .cont{z-index:1;}.ie6 #corner-flash .cont{top:-1px;}</style><script>new Image().src = "http://p0.qhimg.com/t01e40c9da84f037e82.png";</script><div id="corner-flash" version="1b7f3095"><div class="cont"><object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" width="100" height="100"><param name="movie" value="http://s1.qhimg.com/static/a1a00790ed2e2128.swf" width="100" height="100"><param name="wmode" value="transparent"><param name="flashvars" value="ad_pic=http://p0.qhimg.com/t01e40c9da84f037e82.png&link_url=http://2013.weibo.com/?c=spr_web_sq_hao360_hongbao2013_p002"><param name="allowScriptAccess" value="always"><!--[if !IE]>--><object type="application/x-shockwave-flash" data="http://s1.qhimg.com/static/a1a00790ed2e2128.swf" width="100" height="100"><param name="wmode" value="transparent"><param name="flashvars" value="ad_pic=http://p0.qhimg.com/t01e40c9da84f037e82.png&link_url=http://2013.weibo.com/?c=spr_web_sq_hao360_hongbao2013_p002"><param name="allowScriptAccess" value="always"><!--<![endif]--><!--[if !IE]>--></object><!--<![endif]--></object></div></div>    </div>
+</div>
 
+<div id="suggest-container" style="visibility: hidden;">
+	<div class="suggest-bd"></div>
+	<div class="suggest-ft">
+		<div class="declare">由360搜索提供</div>
+	</div>
+</div>
 
-      </div>
-      <div class="creds">
-        <small>This page generated using <a href="https://pages.github.com/">GitHub Pages</a><br/>theme by <a href="http://twitter.com/jonrohan/">Jon Rohan</a></small>
-      </div>
-    </footer>
-  </div>
-  <div class="current-section">
-    <a href="#top">Scroll to top</a>
-    <a href="https://github.com/gary627/DataSource/tarball/master" class="tar">tar</a><a href="https://github.com/gary627/DataSource/zipball/master" class="zip">zip</a><a href="" class="code">source code</a>
-    <p class="name"></p>
-  </div>
-
-  
 </body>
+<script type="text/javascript">
+var PAGE_READY_TIME = (new Date).getTime();
+</script>
+<script type="text/javascript" src="http://s0.qhimg.com/static/4535aea543659969,3ab793124cc44130,6a479dcf7a48db23,aa3cdd9bacf9ad7d,a951457cfa53ebea,f7f909d3a3fb0c94,9d74b88904acd151,77432d241ae951ac,6e9c81ad6c9796da,5a178ed67e80bacb.js"></script>
+
+<script type="text/javascript">
+var IGUESS_DATA = {
+	iguess_default_data : [[7,[[0,"\u7f8e\u98df\u56e2\u8d2d","http:\/\/tuan.360.cn\/?do=category&clazz=1&fname=hao_cai_1217_tuan_meishi&eee=hao_cai_1217_tuan_meishi&fsign=43a7de44fa"],[0,"\u8d85\u503c\u5a31\u4e50\u56e2\u8d2d","http:\/\/tuan.360.cn\/?do=category&clazz=2&fname=hao_cai_1217_tuan_yule&eee=hao_cai_1217_tuan_yule&fsign=71cc99433b"],[0,"\u7fbd\u7ed2\u670d\u4f4e\u4ef7\u56e2","http:\/\/tuan.360.cn\/?do=category&clazz=40109&fname=hao_cai_1217_tuan_yurongfu&eee=hao_cai_1217_tuan_yurongfu&fsign=4e39783b75"],[0,"\u8d3a\u5c81\u6863\u89c2\u5f71\u7968","http:\/\/tuan.360.cn\/?do=movie&fname=hao_cai_1217_tuan_dianying&eee=hao_cai_1217_tuan_dianying&fsign=ac25db03a2"],[0,"\u51ac\u88c5\u56e2\u8d2d","http:\/\/tuan.360.cn\/?do=category&clazz=401&fname=hao_cai_1217_tuan_fushi&eee=hao_cai_1217_tuan_fushi&fsign=ab1a47eb0c"],[0,"\u751f\u6d3b\u767e\u8d27\u56e2","http:\/\/tuan.360.cn\/?do=category&clazz=3&fname=hao_cai_1217_tuan_shenghuo&eee=hao_cai_1217_tuan_shenghuo&fsign=5c558d4221"],[0,"\u8ba2\u9152\u5e97\u4eab\u4f18\u60e0","http:\/\/tuan.360.cn\/?do=category&clazz=502&fname=hao_cai_1217_tuan_jiudian&eee=hao_cai_1217_tuan_jiudian&fsign=0d100bfec4"],[0,"\u51ac\u5b63\u5fc5\u5907\u5355\u54c1","http:\/\/tuan.360.cn\/static\/subject\/tegong1212.html?fname=hao_cai_1217_tuan_tegong12&eee=hao_cai_1217_tuan_tegong12&fsign=af4184576f"]]],[26,[[0,"\u7cd7\u4e8b\u767e\u79d1","http:\/\/www.qiushibaike.com\/"],[0,"\u8c46\u74e3","http:\/\/www.douban.com\/"],[0,"360\u4e0a\u7f51\u5370\u8c61","http:\/\/yx.360.cn\/"],[0,"\u6211\u559c\u6b22","http:\/\/www.woxihuan.com\/"],[0,"\u763e\u79d1\u6280","http:\/\/cn.engadget.com\/"],[0,"\u9c9c\u679c\u70ed\u70b9","http:\/\/xianguo.com\/"],[0,"\u5730\u7403\u6ca1\u6709\u65b0\u9c9c\u4e8b","http:\/\/jandan.net\/"],[0,"\u77e5\u4e4e\u95ee\u7b54","http:\/\/www.zhihu.com\/"]]],[6,[[0,"\u6dd8\u5b9d\u5546\u57ce","http:\/\/www.tmall.com\/?ali_trackid=2:mm_26490347_2388401_9204715:1354168806_3k5_1363491974"],[0,"\u6dd8\u5b9d\u7279\u5356","http:\/\/www.taobao.com\/go\/chn\/tbk_channel\/onsale.php?pid=mm_15144495_2216478_9097195&unid=1"],[0,"\u53d1\u73b0\u5973\u88c5","http:\/\/chujian.360.cn\/index.html?eee=famous"],[0,"\u6b63\u54c1\u5316\u5986\u54c1","http:\/\/www.jumei.com?referer=360_guess_052301"],[0,"\u597d\u4e50\u4e70\u978b\u57ce","http:\/\/www.okbuy.com\/?from=010020064f96195ee82d6"],[0,"\u7f8e\u4e3d\u8bf4\u8d2d\u7269\u7ecf","http:\/\/www.meilishuo.com\/?frm=360_cainixihuan"],[0,"\u6dd8\u5b9d\u7687\u51a0\u5e97","http:\/\/tao.mall.360.cn\/"],[0,"\u7269\u6d41\u5feb\u9012\u67e5\u8be2","http:\/\/hao.360.cn\/kuaidi.html"]]],[20,[[0,"\u4e2d\u5173\u6751\u624b\u673a","http:\/\/mobile.zol.com.cn\/"],[0,"\u673a\u950b\u8bba\u575b","http:\/\/bbs.gfan.com\/forum.php"],[0,"\u6ce1\u6ce1\u7f51","http:\/\/www.pcpop.com\/"],[0,"\u82f9\u679c\u5b98\u7f51","http:\/\/www.apple.com.cn\/"],[0,"\u592a\u5e73\u6d0b\u624b\u673a","http:\/\/mobile.pconline.com.cn\/"],[0,"91\u52a9\u624b","http:\/\/iphone.91.com\/"],[0,"\u5b89\u5353\u7f51","http:\/\/www.hiapk.com\/"],[0,"\u679c\u58f3\u7f51","http:\/\/www.guokr.com\/"]]],[21,[[0,"\u641c\u623f\u7f51","http:\/\/soufun.com\/"],[0,"\u88c5\u4fee\u6548\u679c\u56fe","http:\/\/www.woxihuan.com\/hot\/catalog?cid=15&fr=dh_cnxh_fangchan"],[0,"\u88c5\u4fee\u56fe\u6ee1\u591a","http:\/\/www.tumanduo.com\/"],[0,"\u5b89\u5c45\u5ba2\u4e8c\u624b\u623f","http:\/\/beijing.anjuke.com\/"],[0,"\u5b9c\u5bb6\u5bb6\u5c45","http:\/\/www.ikea.com\/cn\/zh\/"],[0,"\u65b0\u6d6a\u4e50\u5c45","http:\/\/bj.house.sina.com.cn\/"],[0,"\u745e\u4e3d\u5bb6\u5c45","http:\/\/deco.rayli.com.cn\/"],[0,"\u8d76\u96c6\u4e8c\u624b\u5bb6\u5177","http:\/\/www.ganji.com\/jiaju\/"]]],[15,[[0,"\u5f69\u7968\u5f00\u5956\u67e5\u8be2","http:\/\/cp.360.cn\/kj\/kaijiang.html?a=cnxh"],[0,"\u7f8e\u98df\u83dc\u8c31\u5927\u5168","http:\/\/www.woxihuan.com\/hot\/catalog?cid=25&fr=dh_cnxh_shenghuo"],[0,"\u597d\u5927\u592b\u5728\u7ebf","http:\/\/www.haodf.com\/"],[0,"\u7f8e\u98df\u5929\u4e0b","http:\/\/www.meishichina.com\/"],[0,"\u8d85\u503c\u4f18\u60e0\u5238","http:\/\/www.dianping.com\/promo\/"],[0,"39\u5065\u5eb7\u7f51","http:\/\/www.39.net\/"],[0,"\u8c46\u679c\u7f8e\u98df\u65e5\u8bb0","http:\/\/www.douguo.com\/diet"],[0,"\u5988\u5988\u8bf4","http:\/\/wwww.0-6.com\/"]]]]};
+qboot.load.add('iguessdata', {path:"http://s0.qhimg.com/static/106f0f721cb9dd61.js",type:"js"});
+qboot.load.add("preload",{path:"http://s0.qhimg.com/static/0441b947977a2f0c.js",type:"js"});
+</script>
+
+<script type="text/javascript">(function(){setTimeout(function(){var iguessConfig=HAO_CONFIG.iguessConfig;if(!iguessConfig||!IGUESS_DATA){return;}var iguessMod=R('hot-site-iguess');if(iguessMod.getStatus()<R.STATUS_OK){qboot.load('iguessdata',function(){var formatedData=IGuess.formate(IGUESS_DATA.iguess_types,IGUESS_DATA.iguess_default_data);if(formatedData){iguessMod.setData(formatedData);var iguessAppData=new AppData('api.hao.360.cn',iguessConfig.r);iguessAppData.set(iguessConfig.api,formatedData,iguessConfig.expires+(new Date).getTime());}});}},5000);})();</script>
+
+<script type="text/javascript" src="http://s0.qhimg.com/lib/qwrap/113.js"></script><script type="text/javascript" src="http://s1.qhimg.com/static/62f8832e8e771842,74b60837d6afb835,cae4979440b13556,01b2219d3a110e09,bff9998387ff2ebe,01dc933b8ec8e92b,9d96fa2808360a56.js"></script>
+<script type="text/javascript" src="http://s1.qhimg.com/static/fa30495b62838440,8269de40bc727adf,144eb88efb894666,d40eff9c9c5b277a,d874146d55753ecc,b368b63aafa7f5da,dc30a74405f056e5,685b944b02284a63,5a874e7956728624,06ceeaf19378ff39,2539aa54d3ca6613,6ff888b9ee53febd,45e3476cbde56a92,ef1b2300a8b34595,4cb9eec8e8cba087.js"></script>
+<!--[if IE]>
+<script type="text/javascript" src="http://s0.qhimg.com/static/c573bfdbab71a761.js"></script>
+<![endif]-->
+
+<script src="http://h.qhimg.com/magicwandnew.php"></script>
+
+<script src="http://hao.360.cn/monitor/20130106.js"></script><script type="text/javascript">window.moniter&&(moniter.setUrl("http://hao.360.cn/tiyan.html").getTrack().setId(['cool-guess-car','topbar','weather','calendar','header','search','mynav','hot-site-iguess','hot-site','channel-bar','channel-news','channel-video','channel-mall','channel-game','channel-caipiao','channel-tuan','channel-novel','lifestyle','mbar','cool-site','category','footer','copyright','suggest-container','mynav-tips','bangbang','category-bottom','chunyun','bainian']));LogHub.theme("used",{theme:hao360.themeData[0]});if({"?safe":"1","?360safe":"1","?0001":"1","?1001":"1","?1002":"1","?1003":"1","?1004":"1","?1005":"1","?2001":"1","?2002":"1","?3001":"1","?3002":"1"}[location.search]=="1"){LogHub.diy("hao360_tiyan_index_"+location.search.substr(1));}var PAGE_LOADED_TIME=0;W(window).on("load",function(){var sendTimeMoniter=Math.random()<.1;PAGE_LOADED_TIME=(new Date).getTime();if(sendTimeMoniter){var timg=new Image,tsrc="http://top.h.qhimg.com/hao360.gif",tdata={ht:HEAD_END_TIME-PAGE_START_TIME,rt:PAGE_READY_TIME-PAGE_START_TIME,lt:UNFOLD_TIME-PAGE_START_TIME,et:PAGE_LOADED_TIME-PAGE_START_TIME,sc:window.screen.width+"x"+window.screen.height};with(Weather.local){tdata.cc=[prov,city,town]+""};timg.src=tsrc+"?"+ObjectH.encodeURIJson(tdata);}});(function(G,D,s,c,p){c={UA:"UA-360-000001",NO_FLS:0,WITH_REF:1,URL:'http://h.qhimg.com/js/iwt-20121221.js'};G._iwt?G._iwt.track(c,p):(G._iwtTQ=G._iwtTQ||[]).push([c,p]),!G._iwtLoading&&lo();function lo(t){G._iwtLoading=1;s=D.createElement("script");s.src=c.URL;t=D.getElementsByTagName("script");t=t[t.length-1];t.parentNode.insertBefore(s,t);}})(this,document);var _comscore=_comscore||[];_comscore.push({c1:"2",c2:"7129932"});(function(){var s=document.createElement("script"),el=document.getElementsByTagName("script")[0];s.async=true;s.src=(document.location.protocol=="https:"?"https://sb":"http://b")+".scorecardresearch.com/beacon.js";el.parentNode.insertBefore(s,el);})();</script>
+<noscript><img src="http://b.scorecardresearch.com/p?c1=2&amp;c2=7129932&amp;cv=2.0&amp;cj=1" /></noscript>
+<script type="text/javascript">
+if(new CacheSVC('weather_slo').get('weather')){
+	qboot.load('http://s0.qhimg.com/static/4d11519eed601194.js');
+}
+if(qboot.cookie.get(WEBINDEXCK)=="http://hao.360.cn/tiyan.html"){
+	qboot.cookie.remove("old2tiyan");
+	if(hao360.is360se()){
+		try {
+				external.UpdateWebCache(external.twGetSecurityID(window));
+			}catch(e){}
+	}
+}
+qboot.cookie.remove('oldDataCleared');
+
+if(+hao360.todayObj>1360029600000&&+hao360.todayObj<1360116000000){
+	qboot.load('http://s0.qhimg.com/static/5b7fcbd448c900db.js');
+}
+if(!qboot.cookie.get("zoomTipsHide")){
+	setTimeout(function(){
+		qboot.load('http://s0.qhimg.com/static/1612fa04ca230150.js');
+	},500);
+}
+if(hao360.xinnianThemeShow){
+	W('<a id="xinnian-theme-close" style="overflow:hidden;z-index:999;position:absolute;top:4px;right:-50px;width:39px;height:22px;text-indent:-99em;background:url(http://p1.qhimg.com/t01d3cd7ca92edea76b.png) no-repeat;cursor:pointer;display:none;">关闭</a>').appendTo(W("#doc-bd")[0]);
+	M("#xinnian-theme-close", function(W, box){	
+		box.show().click(function(){
+			qboot.cookie.set("xinnianThemeHide",1,{expires:86400000*15});
+			var customData = new AppData('api.hao.360.cn', HAO_CONFIG.themeConfig.v).get('userTheme');
+			hao360.saveTheme((customData&&customData.length==2)?customData[0]:DEFAULT_THEME);
+			box.hide();
+		});
+		box.receive('theme-save',function(){
+			qboot.cookie.set("xinnianThemeHide",1,{expires:86400000*15});
+			box.hide();
+		});
+	});
+}
+</script>
+<script type="text/javascript">
+setTimeout(function(){
+	W("body").appendChild("<iframe src='//hao.360.cn/cache.html' style='display:none;width:0;height:0;'></iframe>");
+},5000);
+</script>
+
 </html>
+<!-- File To Static Is Ok -->
+<!-- [cdn: 209.177.94.83][host: w04v.add.bjsc.qihoo.net][date: 2013-02-06 14:06:54] -->
